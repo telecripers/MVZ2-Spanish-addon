@@ -1,48 +1,51 @@
-Language:English | [简体中文](README-ZH.md)
+Language: [Spanish](README.md) | [简体中文](README-ZH.md) | **Español**
 
-This article explains how to create a language pack for MVZ2.
+Este artículo explica cómo crear un paquete de idioma para MVZ2.
 
-Within the MVZ2 game client, you can export built-in language packs and study their file structures.
+Dentro del cliente del juego MVZ2, puedes exportar paquetes de idioma integrados y estudiar sus estructuras de archivos.
 
-You can download the `template` folder from this repository, which contains necessary texture templates, translation text templates, and English translations for reference.
+Puedes descargar la carpeta `template` de este repositorio, la cual contiene las plantillas de texturas necesarias, plantillas de texto de traducción y traducciones al inglés como referencia.
 
-# Information File
-The information file is located in the root directory of the language pack and named `pack.json`.
+# Archivo de Información
+El archivo de información se encuentra en el directorio raíz del paquete de idioma y se llama `pack.json`.
 
-Its content format is typically:
+Su formato de contenido es típicamente:
 
-    {
-        "name": "Language Pack Name",
-        "author": "Author Name",
-        "description": "Language Pack Description",
-        "dataVersion": 0
-    }
+```json
+{
+    "name": "Nombre del Paquete de Idioma",
+    "author": "Nombre del Autor",
+    "description": "Descripción del Paquete de Idioma",
+    "dataVersion": 0
+}
+```
 
-The `dataVersion` field represents the data version of the language pack, used for format validation across different game versions.
+El campo `dataVersion` representa la versión de datos del paquete de idioma, utilizada para la validación de formato en diferentes versiones del juego.
 
-**A language pack must include this information file to be recognized by the game. Language packs without this file are invalid.**
+**Un paquete de idioma debe incluir este archivo de información para ser reconocido por el juego. Los paquetes de idioma sin este archivo son inválidos.**
 
-# Icon
-The icon file is located in the root directory of the language pack and named `pack.png`.
+# Icono
+El archivo de icono se encuentra en el directorio raíz del paquete de idioma y se llama `pack.png`.
 
-A square-shaped texture is recommended for the language pack icon.
+Se recomienda una textura de forma cuadrada para el icono del paquete de idioma.
 
-# File Structure
-Aside from `pack.json` (information file) and `pack.png` (icon), language pack content is generally stored in the `assets` folder.
+# Estructura de Archivos
+Aparte de `pack.json` (archivo de información) y `pack.png` (icono), el contenido del paquete de idioma se almacena generalmente en la carpeta `assets`.
 
-Subfolders under `assets` correspond to different namespaces in the game. The vanilla content uses the `mvz2` namespace.
+Las subcarpetas bajo `assets` corresponden a diferentes namespaces (espacios de nombres) en el juego. El contenido original (vanilla) utiliza el namespace `mvz2`.
 
-Within a namespace folder, subfolders represent different languages. For example:
-- `zh-Hans`: Simplified Chinese
-- `en-US`: English (United States)
+Dentro de una carpeta de namespace, las subcarpetas representan diferentes idiomas. Por ejemplo:
+- `zh-Hans`: Chino Simplificado
+- `en-US`: Inglés (Estados Unidos)
+- `es-ES`: Español (España)
 
-Language folders contain:
-- `*.mo` (compiled translation files)
-- `sprite_manifest.json` (texture catalog)
-- `sprites` folder (single-slice textures)
-- `spritesheets` folder (multi-slice textures)
+Las carpetas de idioma contienen:
+- `*.mo` (archivos de traducción compilados)
+- `sprite_manifest.json` (catálogo de texturas)
+- Carpeta `sprites` (texturas de una sola pieza)
+- Carpeta `spritesheets` (texturas de múltiples piezas)
 
-A typical language pack structure looks like:
+Una estructura típica de un paquete de idioma se ve así:
 
     pack.json
     pack.png
@@ -63,80 +66,82 @@ A typical language pack structure looks like:
                 sprites/
                 spritesheets/
 
-# Text Translation
-Game text translations use the [GNU Gettext](https://www.gnu.org/software/gettext/) format, which includes three file types:
-* `*.pot`: Translation template containing source text only
-* `*.po`: Translated text file for a specific language
-* `*.mo`: Compiled binary version of `*.po`
+# Traducción de Texto
+Las traducciones de texto del juego utilizan el formato [GNU Gettext](https://www.gnu.org/software/gettext/), que incluye tres tipos de archivos:
+* `*.pot`: Plantilla de traducción que contiene solo el texto original.
+* `*.po`: Archivo de texto traducido para un idioma específico.
+* `*.mo`: Versión binaria compilada del archivo `*.po`.
 
-MVZ2 uses `*.mo` files for translations. To create `*.mo` files, use tools like [Poedit](https://poedit.net/).
+MVZ2 utiliza archivos `*.mo` para las traducciones. Para crear archivos `*.mo`, utiliza herramientas como [Poedit](https://poedit.net/).
 
-Workflow:
-1. Create a new `*.po` file for translations
-2. Load translation templates from `*.pot` into the `*.po` file
-3. Translate the text
-4. Save and compile the `*.po` file into `*.mo`
-5. Place compiled `*.mo` files under `assets/<namespace>/<language>/`
+Flujo de trabajo:
+1. Crea un nuevo archivo `*.po` para las traducciones.
+2. Carga las plantillas de traducción desde el `*.pot` al archivo `*.po`.
+3. Traduce el texto.
+4. Guarda y compila el archivo `*.po` en un `*.mo`.
+5. Coloca los archivos `*.mo` compilados en `assets/<namespace>/<language>/`.
 
-# Texture Translation
-The `sprite_manifest.json` file in `assets/<namespace>/<language>/` controls texture loading. Only textures listed here will be loaded.
+# Traducción de Texturas
+El archivo `sprite_manifest.json` en `assets/<namespace>/<language>/` controla la carga de texturas. Solo se cargarán las texturas listadas aquí.
 
-Sample format:
+Formato de ejemplo:
 
-    {
-        "sprites": [
-            {
-                "name": "archive/castle_note",
-                "texture": "archive/castle_note.png",
-                "pivotX": 0.5,
-                "pivotY": 0.5
-            },
-            ...
-        ],
-        "spritesheets": [
-            {
-                "name": "ready_set_build",
-                "texture": "ready_set_build.png",
-                "slices": [
-                    {
-                        "x": 0.0,
-                        "y": 148.0,
-                        "width": 165.0,
-                        "height": 74.0,
-                        "pivotX": 0.5,
-                        "pivotY": 0.5
-                    },
-                    ...
-                ]
-            },
-            ...
-        ]
-    }
+```json
+{
+    "sprites": [
+        {
+            "name": "archive/castle_note",
+            "texture": "archive/castle_note.png",
+            "pivotX": 0.5,
+            "pivotY": 0.5
+        },
+        ...
+    ],
+    "spritesheets": [
+        {
+            "name": "ready_set_build",
+            "texture": "ready_set_build.png",
+            "slices": [
+                {
+                    "x": 0.0,
+                    "y": 148.0,
+                    "width": 165.0,
+                    "height": 74.0,
+                    "pivotX": 0.5,
+                    "pivotY": 0.5
+                },
+                ...
+            ]
+        },
+        ...
+    ]
+}
+```
 
-### File Structure:
-- **sprites**: Single-slice textures (entire image file = one texture)
-  - `name`: Internal name (must match the game's original name)
-  - `texture`: Path relative to `sprites` folder
-  - `pivotX/Y`: Anchor point coordinates (0=left/bottom, 1=right/top)
+### Estructura de Archivos:
+- **sprites**: Texturas de una sola pieza (un archivo de imagen = una textura).
+  - `name`: Nombre interno (debe coincidir con el nombre original del juego).
+  - `texture`: Ruta relativa a la carpeta `sprites`.
+  - `pivotX/Y`: Coordenadas del punto de anclaje (0=izquierda/abajo, 1=derecha/arriba).
 
-- **spritesheets**: Multi-slice textures (one image file divided into multiple textures)
-  - `slices`: Texture subdivisions
-    - `x/y`: Starting coordinates (pixels, bottom-left origin)
-    - `width/height`: Slice dimensions (pixels)
-    - `pivotX/Y`: Anchor point coordinates
+- **spritesheets**: Texturas de múltiples piezas (un archivo de imagen dividido en varias texturas).
+  - `slices`: Subdivisiones de la textura.
+    - `x/y`: Coordenadas de inicio (píxeles, origen en la esquina inferior izquierda).
+    - `width/height`: Dimensiones del recorte (píxeles).
+    - `pivotX/Y`: Coordenadas del punto de anclaje.
 
-Place corresponding `.png` files in the specified paths after configuring `sprite_manifest.json`.
+Coloca los archivos `.png` correspondientes en las rutas especificadas después de configurar el archivo `sprite_manifest.json`.
 
-# Adding New Languages
-To add a new language:
-1. Create a folder named with the language code (e.g., `fr-FR`) under `assets/<namespace>/`
-2. Add translated content to this folder
+# Añadir Nuevos Idiomas
+Para añadir un nuevo idioma:
+1. Crea una carpeta con el código del idioma (ej. `es-ES`) bajo `assets/<namespace>/`.
+2. Añade el contenido traducido en esta carpeta.
 
-The game automatically detects standard language names based on language codes. For custom languages, add a translation entry with context `"language_name"` in your `.po` file to display the language name properly.
+El juego detecta automáticamente los nombres de idiomas estándar basados en los códigos de idioma. Para idiomas personalizados, añade una entrada de traducción con el contexto `"language_name"` en tu archivo `.po` para mostrar el nombre del idioma correctamente.
 
-# Installation
-**Windows Path**:  
+# Instalación
+**Ruta en Windows**:  
 `%HOMEPATH%\AppData\LocalLow\Cuerzor\MinecraftVSZombies2\language_packs`  
-Place language pack folders or compressed `.zip` files here.
+Coloca las carpetas de los paquetes de idioma o los archivos `.zip` comprimidos aquí.
 
-You can also manage language packs through in-game operations: Import, Export, and Delete.
+También puedes gestionar los paquetes de idioma mediante las operaciones dentro del juego: Importar, Exportar y Eliminar.
