@@ -1,5 +1,22 @@
 Language: [Spanish](README.md) | [简体中文](README-ZH.md) | **Español**
 
+**📊 Estado de traducción**
+**almanac.po:**
+Total de entradas: 897
+Traducidas: 673
+Sin traducir (vacías): 224
+
+**general.po:**
+Total de entradas: 873
+Traducidas: 662
+Sin traducir (vacías): 211
+
+**talk.po:**
+Total de entradas: 2130
+Traducidas: 1582
+Sin traducir (vacías): 548
+
+
 Este artículo explica cómo crear un paquete de idioma para MVZ2.
 
 Dentro del cliente del juego MVZ2, puedes exportar paquetes de idioma integrados y estudiar sus estructuras de archivos.
@@ -9,7 +26,7 @@ Puedes descargar la carpeta `template` de este repositorio, la cual contiene las
 # Archivo de Información
 El archivo de información se encuentra en el directorio raíz del paquete de idioma y se llama `pack.json`.
 
-Su formato de contenido es típicamente:
+ Su formato de contenido es típicamente:
 
 ```json
 {
