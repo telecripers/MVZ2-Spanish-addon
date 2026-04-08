@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: minecraftvszombies2\n"
 "POT-Creation-Date: 2025-06-18 09:46+0800\n"
-"PO-Revision-Date: 2026-04-02 13:25-0600\n"
+"PO-Revision-Date: 2026-04-08 15:46-0600\n"
 "Last-Translator: Robosoft\n"
 "Language-Team: Spanish (Mexico)\n"
 "Language: es_MX\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Crowdin-Language: es-MX\n"
 "X-Crowdin-Project: minecraftvszombies2\n"
 "X-Crowdin-Project-ID: 760593\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 
 #. 初始界面的作者标识
 #: /MainGame/MainScene/Init/Splash/Canvas/Creator
@@ -64,17 +64,15 @@ msgid "成就"
 msgstr "Logros"
 
 #. 游玩时长统计
-#: /MainGame/MainScene/Mainmenu/Elements/Buttons/Stats/Region/Scroll
-#: View/Viewport/Content/PlayTime/Title/Title
+#: /MainGame/MainScene/Mainmenu/Elements/Buttons/Stats/Region/Scroll View/Viewport/Content/PlayTime/Title/Title
 msgid "游玩时长"
-msgstr ""
+msgstr "Tiempo de juego"
 
 #: /MainGame/MainScene/Mainmenu/Elements/Buttons/Stats/ReturnButton/Text
 msgid "返回"
 msgstr "Regresar"
 
-#: /MainGame/MainScene/Mainmenu/Elements/Buttons/Achievements/Region/Scroll
-#: View/Viewport/Content/Entry/Texts/TitleRegion/Earned
+#: /MainGame/MainScene/Mainmenu/Elements/Buttons/Achievements/Region/Scroll View/Viewport/Content/Entry/Texts/TitleRegion/Earned
 msgid "已完成！"
 msgstr "¡Obtenido!"
 
@@ -117,31 +115,31 @@ msgstr "Menu"
 #: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MainElements/Sliders/Sliders1/MusicSlider
 msgctxt "option.tooltip"
 msgid "背景音乐音量。"
-msgstr ""
+msgstr "Volumen de la música de fondo."
 
 #. 选项提示
 #: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MainElements/Sliders/Sliders2/OptionSlider
 msgctxt "option.tooltip"
 msgid "音效音量。"
-msgstr ""
+msgstr "Volumen de los efectos de sonido."
 
 #. 选项提示
 #: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MainElements/Sliders/Sliders3/OptionSlider
 msgctxt "option.tooltip"
 msgid "关卡中开启加速时，游戏速度的倍率。"
-msgstr ""
+msgstr "Multiplicador de velocidad del juego cuando se activa el avance rápido en los niveles."
 
 #. 选项说明
 #: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MainElements/Buttons/Top/SwapTriggerToggle
 msgctxt "option.tooltip"
 msgid "是否交换两个触发器械的方法。若启用，则放置器械后默认会立即将其触发。"
-msgstr ""
+msgstr "Opción para intercambiar los dos métodos de activación de los artilugios. Si se activa, elartilugio se activará de forma instantánea por defecto al colocarlo."
 
 #. 选项说明
 #: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MainElements/Buttons/Top/OptionToggle
 msgctxt "option.tooltip"
 msgid "是否在游戏失去焦点后暂停游戏。"
-msgstr ""
+msgstr "Opción para pausar el juego cuando pierde el foco."
 
 #: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MainElements/Buttons/Middle/ButtonArea1/MoreOptions/Text
 msgid "更多选项"
@@ -153,150 +151,137 @@ msgid "重新开始"
 msgstr "Reiniciar"
 
 #. 选项分类
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/General/Title/Text
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/General/Title/Text
 msgid "常规"
 msgstr "General"
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/General/Options/Buttons/Vibration
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/General/Options/Buttons/Vibration
 msgctxt "option.tooltip"
 msgid "（仅限移动端）是否在屏幕震动时震动设备。"
-msgstr ""
+msgstr "(Solo para móviles) Opción para que el dispositivo vibre cuando se agita la pantalla."
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/General/Options/Buttons/SkipAllDialogues
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/General/Options/Buttons/SkipAllDialogues
 msgctxt "option.tooltip"
 msgid "是否自动跳过所有剧情对话。"
-msgstr ""
+msgstr "Opción para saltarse automáticamente los diálogos de la historia."
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/General/Options/Buttons/ChooseWarnings
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/General/Options/Buttons/ChooseWarnings
 msgctxt "option.tooltip"
 msgid "是否在蓝图选择完毕后，根据当前情况提出警告。"
-msgstr ""
+msgstr "Opción para mostrar advertencias tras seleccionar planos en función de la situación actual."
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/General/Options/Buttons/CommandBlockMode
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/General/Options/Buttons/CommandBlockMode
 msgctxt "option.tooltip"
 msgid ""
 "选择命令方块蓝图的模式。\n"
 "手动：手动选择模仿的器械。\n"
 "前位：自动模仿上一个选择的器械。"
 msgstr ""
+"Modo de selección para el bloque de comandos.\n"
+"Manual: selecciona manualmente el plano que deseas imitar.\n"
+"Anterior: imita automáticamente el último plano seleccionado."
 
 #. 选项分类
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Title/Text
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Title/Text
 msgid "显示"
 msgstr "Mostrar"
 
 #. 选项提示
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Sliders1/Particles
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Sliders1/Particles
 msgctxt "option.tooltip"
 msgid "粒子效果数量。"
-msgstr ""
+msgstr "Cantidad de efecto de partículas."
 
 #. 选项提示
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Sliders2/Shake
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Sliders2/Shake
 msgctxt "option.tooltip"
 msgid "屏幕震动幅度。"
-msgstr ""
+msgstr "Intensidad del temblor de la pantalla."
 
 #. 选项提示
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Sliders3/AnimationFrequency
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Sliders3/AnimationFrequency
 msgctxt "option.tooltip"
 msgid "关卡中实体动画的更新速率。降低该值可能会提升性能，但会使实体动画效果变差。"
-msgstr ""
+msgstr "Frecuencia de actualización de las animaciones de las entidades en los niveles. Reducir este valor puede mejorarel rendimiento, pero disminuirá la calidad de las animaciones de las entidades."
 
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/ResolutionDropdown/Label
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/ResolutionDropdown/Label
 msgid "分辨率"
 msgstr "Resolución"
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Buttons/Fullscreen
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Buttons/Fullscreen
 msgctxt "option.tooltip"
 msgid "是否全屏。"
-msgstr ""
+msgstr "Opción para activar el modo de pantalla completa."
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Buttons/BloodAndGore
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Buttons/BloodAndGore
 msgctxt "option.tooltip"
 msgid "是否启用游戏中的血腥表现。"
-msgstr ""
+msgstr "Opción para habilitar efectos de sangre y gore en el juego."
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Buttons/HeightIndicator
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Buttons/HeightIndicator
 msgctxt "option.tooltip"
 msgid "是否在关卡中的实体位置较高时，显示实体距离地面的高度。"
 msgstr ""
+"Opción para mostrar la altura de las entidades sobre el suelo cuando su posición está "
+"elevada en un nivel."
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Buttons/HDRLighting
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Buttons/HDRLighting
 msgctxt "option.tooltip"
 msgid "是否开启HDR光照。这会让关卡中的光能够提升场景贴图的亮度，但可能会使这些光变得较为刺眼。"
 msgstr ""
+"Opción para habilitar la iluminación HDR. Esto permite que las luces en los niveles iluminen "
+"las texturas de la escena, pero puede hacer que se vean demasiado brillantes."
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Display/Options/Buttons/ShowFPS
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Display/Options/Buttons/ShowFPS
 msgctxt "option.tooltip"
 msgid "是否显示游戏帧率。"
-msgstr ""
+msgstr "Opción para mostrar los FPS."
 
 #. 选项分类
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Controls/Title/Text
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Controls/Title/Text
 msgid "控制"
 msgstr "Control"
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Controls/Options/Buttons/ShowHotkeys
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Controls/Options/Buttons/ShowHotkeys
 msgctxt "option.tooltip"
 msgid "是否在关卡中显示界面对应的快捷键。"
-msgstr ""
+msgstr "Opción para mostrar las teclas rápidas correspondientes de la interfaz en un nivel."
 
 #. 按钮文本
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Controls/Options/Buttons/Keybindings/Text
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Controls/Options/Buttons/Keybindings/Text
 msgid "快捷键设置"
 msgstr "Atajo de Tecla"
 
 #. 选项分类
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Misc/Title/Text
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Misc/Title/Text
 msgid "杂项"
 msgstr "Varios"
 
 #. 选项说明
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Misc/Options/Buttons/SponsorName
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Misc/Options/Buttons/SponsorName
 msgctxt "option.tooltip"
 msgid "在关卡中放置特定器械时，是否随机显示赞助了对应方案的赞助者的名称。"
 msgstr ""
+"Al colocar artilugios específicos en un nivel, opción para mostrar aleatoriamente "
+"los nombres de los patrocinadores que apoyaron el nivel correspondiente."
 
 #. 按钮文本
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Misc/Options/Buttons/Credits/Text
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Misc/Options/Buttons/Credits/Text
 msgid "制作人员名单"
 msgstr "Creditos"
 
 #. 按钮文本
-#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll
-#: View/Viewport/Content/Misc/Options/Buttons/ExportLogFiles/Text
+#: /MainGame/MainScene/Mainmenu/Canvas/OptionsDialog/Dialog/MoreElements/Scroll View/Viewport/Content/Misc/Options/Buttons/ExportLogFiles/Text
 msgid "导出游戏日志"
 msgstr "Exportar archivos de registro"
 
@@ -346,8 +331,7 @@ msgid "杂项图鉴"
 msgstr "Varios"
 
 #. 图鉴中的放大镜界面标题
-#: /MainGame/MainScene/Almanac/Canvas/Almanac/ZoomPage/Region/Top/Title/Text
-#: (TMP)
+#: /MainGame/MainScene/Almanac/Canvas/Almanac/ZoomPage/Region/Top/Title/Text (TMP)
 msgid "放大镜"
 msgstr "Zoom"
 
@@ -386,8 +370,7 @@ msgid "搜索"
 msgstr "Buscar"
 
 #. 输入框默认文字
-#: /MainGame/MainScene/Archive/Canvas/Index/Center/Filter/Contents/Search/InputField/Text
-#: Area/Placeholder
+#: /MainGame/MainScene/Archive/Canvas/Index/Center/Filter/Contents/Search/InputField/Text Area/Placeholder
 msgid "输入文字……"
 msgstr "Introducir texto..."
 
@@ -436,8 +419,7 @@ msgid "音乐室"
 msgstr "Habitación Sonora"
 
 #. 插件按钮
-#: /MainGame/MainScene/Addons/Canvas/Index/Center/List/Scroll
-#: View/Viewport/Content/LanguagePacksButton/Text
+#: /MainGame/MainScene/Addons/Canvas/Index/Center/List/Scroll View/Viewport/Content/LanguagePacksButton/Text
 msgid "语言包"
 msgstr "Paquete de Idiomas"
 
@@ -449,12 +431,9 @@ msgstr "Desactivado"
 msgid "启用"
 msgstr "Activado"
 
-#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Enabled/Scroll
-#: View/Viewport/Content/Text
+#: /MainGame/MainScene/Addons/Canvas/LanguagePack/Center/Enabled/Scroll View/Viewport/Content/Text
 msgid "更上方的语言包的内容会更优先被加载。"
-msgstr ""
-"El contenido de los paquetes de idiomas posicionados más arriba se cargará "
-"con prioridad."
+msgstr "El contenido de los paquetes de idiomas posicionados más arriba se cargará con prioridad."
 
 #: /MainGame/MainScene/Addons/Canvas/Loading/Text
 msgid "加载中……"
@@ -585,7 +564,7 @@ msgstr "Metal de Infierno"
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\IndependenceDayEvent.cs:37
 msgctxt "random_china.event_name"
 msgid "独立日"
-msgstr ""
+msgstr "El día de la independencia"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\ObsidianPrisonEvent.cs:56
@@ -597,7 +576,7 @@ msgstr "Prisión de Obsidiana"
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Pokers\AceOfClubsEvent.cs:29
 msgctxt "random_china.event_name"
 msgid "梅花A"
-msgstr ""
+msgstr "As de trébol"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Pokers\AceOfDiamondsEvent.cs:24
@@ -609,13 +588,13 @@ msgstr "As de Diamante"
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Pokers\AceOfHeartsEvent.cs:24
 msgctxt "random_china.event_name"
 msgid "红桃A"
-msgstr ""
+msgstr "As de Corazones"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Pokers\AceOfSpadesEvent.cs:20
 msgctxt "random_china.event_name"
 msgid "黑桃A"
-msgstr ""
+msgstr "As de Picas"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\RaceCarsEvent.cs:34
@@ -639,37 +618,37 @@ msgstr "Super Recarga"
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Tarots\StrengthEvent.cs:43
 msgctxt "random_china.event_name"
 msgid "VIII-力量"
-msgstr ""
+msgstr "VIII - Fuerza"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Tarots\TheEmperorEvent.cs:29
 msgctxt "random_china.event_name"
 msgid "IV-皇帝"
-msgstr ""
+msgstr "IV - Emperador"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Tarots\TheFoolEvent.cs:30
 msgctxt "random_china.event_name"
 msgid "0-愚者"
-msgstr ""
+msgstr "0 - El Loco"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Tarots\TheHangedManEvent.cs:31
 msgctxt "random_china.event_name"
 msgid "XII-倒吊人"
-msgstr ""
+msgstr "XII - El Colgado"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Tarots\TheStarEvent.cs:30
 msgctxt "random_china.event_name"
 msgid "XVII-星星"
-msgstr ""
+msgstr "XVII - La Estrella"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\Tarots\TheTowerEvent.cs:32
 msgctxt "random_china.event_name"
 msgid "XVI-塔"
-msgstr ""
+msgstr "XVI - La Torre"
 
 # 随机瓷器事件名称
 #: Scripts\Vanilla\GameContent\RandomChinaEvents\WorldwideCelebrationEvent.cs:30
@@ -771,9 +750,7 @@ msgstr "¡Chispas, buen trabajo!"
 #: Scripts\Vanilla\GameContent\Stages\Definitions\TriggerTutorialStage.cs:327
 msgctxt "advice.trigger_tutorial.8"
 msgid "立即触发只限于一次性消耗类型的器械。"
-msgstr ""
-"¡La activación instantánea solo puede utilizarse en artilugios de un solo "
-"uso!"
+msgstr "¡La activación instantánea solo puede utilizarse en artilugios de un solo uso!"
 
 # 教程关指引
 #: Scripts\Vanilla\GameContent\Stages\Definitions\TriggerTutorialStage.cs:329
@@ -903,16 +880,12 @@ msgstr "¿Está seguro de que desea utilizar el {1} sin el {0}?"
 # 选卡警告，{0}为目标敌人
 #: Scripts\Vanilla\GameContent\GlobalCallbacks\BlueprintRecommendGlobalCallbacks.cs:177
 msgid "你没有选能干掉{0}的器械，确定要继续吗？"
-msgstr ""
-"No has elegido ningún artilugio que combata a {0}, ¿Estás seguro que deseas "
-"continuar?"
+msgstr "No has elegido ningún artilugio que combata a {0}, ¿Estás seguro que deseas continuar?"
 
 # 选卡警告
 #: Scripts\Vanilla\GameContent\GlobalCallbacks\BlueprintRecommendGlobalCallbacks.cs:179
 msgid "你没有选能生产能量的器械，确定要继续吗？"
-msgstr ""
-"No has elegido ningún artilugio que produzca energía, ¿Estás seguro de que "
-"deseas continuar?"
+msgstr "No has elegido ningún artilugio que produzca energía, ¿Estás seguro de que deseas continuar?"
 
 # 选卡警告
 #: Scripts\Vanilla\GameContent\GlobalCallbacks\BlueprintRecommendGlobalCallbacks.cs:181
@@ -1006,7 +979,7 @@ msgstr "¡Haz clic para detener los muros aplastantes!"
 #: Scripts\Vanilla\VanillaStrings.cs:22
 msgctxt "advice"
 msgid "点击火焰来灭火！"
-msgstr ""
+msgstr "¡Haz clic para extinguir el fuego!"
 
 # 获得新制品提示
 #: Scripts\Vanilla\VanillaStrings.cs:24
@@ -1030,7 +1003,7 @@ msgstr "¿Cuántas banderas puedes sobrevivir?"
 #: Scripts\Vanilla\VanillaStrings.cs:31
 msgctxt "advice"
 msgid "更多的怪物要来了！"
-msgstr ""
+msgstr "¡Más monstruos se acercan!"
 
 # 预览战场的提示
 #: Scripts\Vanilla\VanillaStrings.cs:33
@@ -1043,8 +1016,8 @@ msgstr "Clic para continuar"
 msgctxt "advice"
 msgid "没有抽到牌！受到{0}点疲劳伤害！"
 msgid_plural "没有抽到牌！受到{0}点疲劳伤害！"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "¡No se roban cartas! ¡Recibe {0} de daño por fatiga!"
+msgstr[1] "¡No se roban cartas! ¡Recibe {0} de daño por fatiga!"
 
 # 欲望壶技能的提示
 #: Scripts\Vanilla\VanillaStrings.cs:37
@@ -1057,16 +1030,16 @@ msgstr "¡No se robó cartas! ¿Y qué?"
 msgctxt "advice"
 msgid "干得好！还剩{0}轮！"
 msgid_plural "干得好！还剩{0}轮！"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "¡Buen trabajo! ¡Queda {0} ronda!"
+msgstr[1] "¡Buen trabajo! ¡Quedan {0} rondas!"
 
 # 我是僵尸模式的提示，{0}为目前连胜
 #: Scripts\Vanilla\VanillaStrings.cs:41
 msgctxt "advice"
 msgid "干得好！目前连胜：{0}！"
 msgid_plural "干得好！目前连胜：{0}！"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "¡Buen trabajo! Racha actual: {0}!"
+msgstr[1] "¡Buen trabajo! Racha actual: {0}!"
 
 # 固有蓝图的提示
 #: Scripts\Vanilla\VanillaStrings.cs:44
@@ -1124,8 +1097,7 @@ msgstr "No se puede renombrar a este nombre"
 # 输入名称对话框的错误信息
 #: Scripts\Vanilla\VanillaStrings.cs:68
 msgid "第一次游戏必须输入用户名"
-msgstr ""
-"El nombre de usuario debe configurarse al iniciar el juego por primera vez"
+msgstr "El nombre de usuario debe configurarse al iniciar el juego por primera vez"
 
 # 删除用户时的警告，{0}为名称
 #: Scripts\Vanilla\VanillaStrings.cs:70
@@ -1255,16 +1227,16 @@ msgstr "Nivel Desconocido"
 msgctxt "levelname"
 msgid "{0} - 第{1}天"
 msgid_plural "{0} - 第{1}天"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} - Día {1}"
+msgstr[1] "{0} - Día {1}"
 
 # 关卡名称，{0}为关卡名，{1}为无尽模式轮数
 #: Scripts\Vanilla\VanillaStrings.cs:136
 msgctxt "levelname"
 msgid "{0} - 第{1}轮"
 msgid_plural "{0} - 第{1}轮"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} - Horda {1}"
+msgstr[1] "{0} - Horda {1}"
 
 # 死亡信息-梦魇碾压墙
 #: Scripts\Vanilla\VanillaStrings.cs:139
@@ -1300,175 +1272,175 @@ msgstr "None"
 #: Scripts\Vanilla\VanillaStrings.cs:154
 msgctxt "command.output"
 msgid "未找到命令{0}！"
-msgstr ""
+msgstr "¡Comando {0} no encontrado!"
 
 # 命令输出-help，{0}为命令名，{1}为命令描述
 #: Scripts\Vanilla\VanillaStrings.cs:156
 msgctxt "command.output"
 msgid "/{0} - {1}"
-msgstr ""
+msgstr "/{0} - {1}"
 
 # 命令输出-help
 #: Scripts\Vanilla\VanillaStrings.cs:158
 msgctxt "command.output"
 msgid "有关某个命令的详细信息，请输入\"/help <命令名>\""
-msgstr ""
+msgstr "Para más información sobre un comando, por favor ingresa '/help <nombre del comando>'"
 
 # 命令输出-help，{0}为参数名，{1}为参数类型，{2}为参数描述
 #: Scripts\Vanilla\VanillaStrings.cs:160
 msgctxt "command.output"
 msgid "{0}: [{1}] {2}"
-msgstr ""
+msgstr "{0}: [{1}] {2}"
 
 # 命令输出-blueprint，{0}为参数
 #: Scripts\Vanilla\VanillaStrings.cs:162
 msgctxt "command.output"
 msgid "蓝图槽位参数{0}超出范围"
-msgstr ""
+msgstr "El parámetro del espacio de plano {0} está fuera de su rango."
 
 # 命令输出-cheat，{0}为参数
 #: Scripts\Vanilla\VanillaStrings.cs:164
 msgctxt "command.output"
 msgid "未找到作弊命令{0}"
-msgstr ""
+msgstr "Truco {0} no encontrado"
 
 # 命令输出-cheat，{0}为作弊命令名
 #: Scripts\Vanilla\VanillaStrings.cs:166
 msgctxt "command.output"
 msgid "已启用{0}"
-msgstr ""
+msgstr "Habilitado {0}"
 
 # 命令输出-cheat，{0}为作弊命令名
 #: Scripts\Vanilla\VanillaStrings.cs:168
 msgctxt "command.output"
 msgid "已禁用{0}"
-msgstr ""
+msgstr "Deshabilitado {0}"
 
 # 命令输出-save
 #: Scripts\Vanilla\VanillaStrings.cs:170
 msgctxt "command.output"
 msgid "已保存关卡状态"
-msgstr ""
+msgstr "El estado del nivel se ha guardado correctamente"
 
 # 命令输出-unlock，{0}为游戏状态名
 #: Scripts\Vanilla\VanillaStrings.cs:172
 msgctxt "command.output"
 msgid "已解锁游戏状态{0}"
-msgstr ""
+msgstr "Estado del juego {0} desbloqueado"
 
 # 命令输出-unlock，{0}为游戏状态名
 #: Scripts\Vanilla\VanillaStrings.cs:174
 msgctxt "command.output"
 msgid "无法解锁游戏状态{0}：该状态已被解锁"
-msgstr ""
+msgstr "No se puede desbloquear el estado del juego {0}: Este estado ya está desbloqueado"
 
 # 命令输出-unlock，{0}为游戏状态名
 #: Scripts\Vanilla\VanillaStrings.cs:176
 msgctxt "command.output"
 msgid "已重新锁定游戏状态{0}"
-msgstr ""
+msgstr "Estado del juego {0} bloqueado nuevamente"
 
 # 命令输出-unlock，{0}为游戏状态名
 #: Scripts\Vanilla\VanillaStrings.cs:178
 msgctxt "command.output"
 msgid "无法重新锁定游戏状态{0}：该状态未被解锁"
-msgstr ""
+msgstr "No se puede volver a bloquear el estado del juego {0}: este estado no está desbloqueado"
 
 # 命令输出
 #: Scripts\Vanilla\VanillaStrings.cs:180
 msgctxt "command.output"
 msgid "命令格式错误"
-msgstr ""
+msgstr "Formato de comando incorrecto"
 
 # 命令输出
 #: Scripts\Vanilla\VanillaStrings.cs:182
 msgctxt "command.output"
 msgid "该命令只能在关卡中被调用"
-msgstr ""
+msgstr "Este comando solo se puede ejecutar en un nivel."
 
 # 命令输出，{0}为参数名
 #: Scripts\Vanilla\VanillaStrings.cs:184
 msgctxt "command.output"
 msgid "参数{0}格式错误"
-msgstr ""
+msgstr "Formato incorrecto del parámetro {0}"
 
 # 命令输出
 #: Scripts\Vanilla\VanillaStrings.cs:186
 msgctxt "command.output"
 msgid "参数数量错误"
-msgstr ""
+msgstr "Cantidad de parámetros incorrecta"
 
 # 命令输出，{0}为参数名
 #: Scripts\Vanilla\VanillaStrings.cs:188
 msgctxt "command.output"
 msgid "参数{0}丢失"
-msgstr ""
+msgstr "Falta el parámetro {0}"
 
 # 命令输出，{0}为有效参数列表
 #: Scripts\Vanilla\VanillaStrings.cs:190
 msgctxt "command.output"
 msgid "参数错误，有效值为{0}"
-msgstr ""
+msgstr "Parámetro incorrecto, los valores válidos son {0}"
 
 # 命令输出，{0}为参数名
 #: Scripts\Vanilla\VanillaStrings.cs:192
 msgctxt "command.output"
 msgid "参数丢失，有效值为{0}"
-msgstr ""
+msgstr "Parámetro faltante, los valores válidos son {0}"
 
 # 作弊命令名称
 #: Scripts\Vanilla\VanillaStrings.cs:195
 msgctxt "command.cheat_name"
 msgid "上帝模式"
-msgstr ""
+msgstr "Modo Dios"
 
 # 作弊命令名称
 #: Scripts\Vanilla\VanillaStrings.cs:197
 msgctxt "command.cheat_name"
 msgid "无限能量"
-msgstr ""
+msgstr "Energía Infinita"
 
 # 作弊命令名称
 #: Scripts\Vanilla\VanillaStrings.cs:199
 msgctxt "command.cheat_name"
 msgid "立即充能"
-msgstr ""
+msgstr "Recarga instantánea"
 
 # 作弊命令名称
 #: Scripts\Vanilla\VanillaStrings.cs:201
 msgctxt "command.cheat_name"
 msgid "无限星之碎片"
-msgstr ""
+msgstr "Fragmentos de Estrella Infinitos"
 
 # 命令参数类型
 #: Scripts\Vanilla\VanillaStrings.cs:204
 msgctxt "command_parameter.type"
 msgid "真值"
-msgstr ""
+msgstr "Booleano"
 
 # 命令参数类型
 #: Scripts\Vanilla\VanillaStrings.cs:206
 msgctxt "command_parameter.type"
 msgid "整数"
-msgstr ""
+msgstr "Numero Entero"
 
 # 命令参数类型
 #: Scripts\Vanilla\VanillaStrings.cs:208
 msgctxt "command_parameter.type"
 msgid "实数"
-msgstr ""
+msgstr "Número Real"
 
 # 命令参数类型
 #: Scripts\Vanilla\VanillaStrings.cs:210
 msgctxt "command_parameter.type"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 # 命令参数类型
 #: Scripts\Vanilla\VanillaStrings.cs:212
 msgctxt "command_parameter.type"
 msgid "命令"
-msgstr ""
+msgstr "Comando"
 
 # 命令参数类型
 #: Scripts\Vanilla\VanillaStrings.cs:214
@@ -1509,8 +1481,8 @@ msgstr "Comprar"
 #: Scripts\MVZ2\Store\StoreController.cs:291
 msgid "确定以{0:N0}的价格买下这个物品？"
 msgid_plural "确定以{0:N0}的价格买下这个物品？"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "¿Estás seguro de que quieres comprar esto por {0:N0}?"
+msgstr[1] "¿Estás seguro de que quieres comprar esto por {0:N0}?"
 
 # 商店对话框标题
 #: Scripts\MVZ2\Store\StoreController.cs:293
@@ -1603,22 +1575,22 @@ msgstr "¿Estás seguro de restablecer todos los enlaces de teclas?"
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:607
 msgid "交换触发"
-msgstr ""
+msgstr "Activación automática"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:609
 msgid "全屏"
-msgstr ""
+msgstr "Pantalla completa"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:611
 msgid "设备震动"
-msgstr ""
+msgstr "Vibración"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:613
 msgid "后台暂停"
-msgstr ""
+msgstr "Pausar al perder el foco"
 
 # 选项，{0}为难度
 #: Scripts\MVZ2\Options\OptionsLogic.cs:615
@@ -1648,27 +1620,27 @@ msgstr "Frecuencia de animación: {0}"
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:627
 msgid "HDR光照"
-msgstr ""
+msgstr "Iluminación HDR"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:630
 msgid "血与碎块"
-msgstr ""
+msgstr "Sangre y gore"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:633
 msgid "跳过对话"
-msgstr ""
+msgstr "Omitir diálogos"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:635
 msgid "赞助者名称"
-msgstr ""
+msgstr "Nombres de patrocinadores"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:637
 msgid "选卡警告"
-msgstr ""
+msgstr "Advertencias de planos"
 
 # 选项，{0}为模式
 #: Scripts\MVZ2\Options\OptionsLogic.cs:639
@@ -1683,12 +1655,12 @@ msgstr "Mostrar FPS: {0}"
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:643
 msgid "高度指示器"
-msgstr ""
+msgstr "Indicador de altura"
 
 # 选项
 #: Scripts\MVZ2\Options\OptionsLogic.cs:645
 msgid "显示快捷键"
-msgstr ""
+msgstr "Mostrar teclas rápidas"
 
 # 命令方块模式
 #: Scripts\MVZ2\Options\OptionsLogic.cs:648
@@ -1785,7 +1757,7 @@ msgstr "Modo Rápido"
 #: Scripts\MVZ2\Options\OptionsManager_KeyBindings.cs:98
 msgctxt "hotkey.name"
 msgid "控制台"
-msgstr ""
+msgstr "Consola"
 
 # 按键名
 #: Scripts\MVZ2\Options\OptionsManager_KeyBindings.cs:100
@@ -1897,12 +1869,12 @@ msgstr ""
 # 进入关卡的错误信息，{0}为地点ID
 #: Scripts\MVZ2\Map\MapController.cs:740
 msgid "目标地点{0}不存在。"
-msgstr ""
+msgstr "El área objetivo {0} no existe."
 
 # 进入关卡的错误信息，{0}为关卡ID
 #: Scripts\MVZ2\Map\MapController.cs:742
 msgid "目标关卡{0}不存在。"
-msgstr ""
+msgstr "El nivel objetivo {0} no existe."
 
 # 日志导出失败的警告
 #: Scripts\MVZ2\Managers\DebugManager.cs:45
@@ -1918,13 +1890,13 @@ msgstr "Los archivos de registro se han exportado correctamente a {0}."
 #: Scripts\MVZ2\Managers\DebugManager_Console.cs:564
 msgctxt "command.output"
 msgid "<color=red>命令不存在：{0}</color>"
-msgstr ""
+msgstr "<color=red>Comando no encontrado: {0}</color>"
 
 # 命令输出，{0}为错误
 #: Scripts\MVZ2\Managers\DebugManager_Console.cs:566
 msgctxt "command.output"
 msgid "<color=red>错误：{0}</color>"
-msgstr ""
+msgstr "<color=red>Error: {0}</color>"
 
 # 按键名
 #: Scripts\MVZ2\Managers\InputManager_Keys.cs:221
@@ -2789,9 +2761,7 @@ msgstr "No se pudo importar el usuario. El archivo puede estar corrupto."
 # 存档导入失败的警告
 #: Scripts\MVZ2\Mainmenu\MainmenuController.cs:842
 msgid "导入存档失败，游戏中存在同名用户，但正在导入的存档不可重命名。"
-msgstr ""
-"No se pudo importar el usuario. Existe un usuario con el mismo nombre, pero "
-"no se puede cambiar el nombre del usuario que se va a importar."
+msgstr "No se pudo importar el usuario. Existe un usuario con el mismo nombre, pero no se puede cambiar el nombre del usuario que se va a importar."
 
 # 存档导出成功的提示，{0}为路径
 #: Scripts\MVZ2\Mainmenu\MainmenuController.cs:844
@@ -2817,30 +2787,22 @@ msgstr "¿Estás seguro de continuar sin llenar las ranuras de los artilugios?"
 # 重选蓝图的验证错误信息
 #: Scripts\MVZ2\Level\ControllerPart\LevelBlueprintChooseController.cs:1291
 msgid "上一次选择的蓝图中包含多个相同的器械。"
-msgstr ""
-"Los planos seleccionados la última vez contenían múltiples artilugios "
-"idénticos."
+msgstr "Los planos seleccionados la última vez contenían múltiples artilugios idénticos."
 
 # 重选蓝图的验证错误信息
 #: Scripts\MVZ2\Level\ControllerPart\LevelBlueprintChooseController.cs:1293
 msgid "上一次选择的蓝图中包含未解锁的器械。"
-msgstr ""
-"Los planos seleccionados la última vez contenían artilugios que aún no están"
-" desbloqueados."
+msgstr "Los planos seleccionados la última vez contenían artilugios que aún no están desbloqueados."
 
 # 重选蓝图的验证错误信息
 #: Scripts\MVZ2\Level\ControllerPart\LevelBlueprintChooseController.cs:1295
 msgid "上一次选择的制品中包含多个相同的制品。"
-msgstr ""
-"Los artefactos seleccionados la última vez contenían varios artefactos "
-"idénticos."
+msgstr "Los artefactos seleccionados la última vez contenían varios artefactos idénticos."
 
 # 重选蓝图的验证错误信息
 #: Scripts\MVZ2\Level\ControllerPart\LevelBlueprintChooseController.cs:1297
 msgid "上一次选择的制品中包含未解锁的制品。"
-msgstr ""
-"Los artefactos seleccionados la última vez contenían artefactos que aún no "
-"están desbloqueados."
+msgstr "Los artefactos seleccionados la última vez contenían artefactos que aún no están desbloqueados."
 
 # 对话框内容
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:184
@@ -2854,7 +2816,7 @@ msgstr ""
 # 对话框内容
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:186
 msgid "读取关卡失败，文件可能已损坏。"
-msgstr ""
+msgstr "No se pudo cargar el nivel. El archivo puede estar dañado."
 
 # 对话框内容，{0}为错误信息
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:188
@@ -2867,16 +2829,18 @@ msgid ""
 "加载关卡失败，存档状态和当前游戏状态不匹配：\n"
 "{0}"
 msgstr ""
+"No se pudo cargar el nivel. El estado del guardado no coincide con el estado actual del juego:\n"
+"{0}"
 
 # 关卡标识符名称，{0}为命名空间名，{1}为数据版本号
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:192
 msgid "{0}（版本{1}）"
-msgstr ""
+msgstr "{0} (versión {1})"
 
 # 关卡标识符名称，{0}为命名空间名，{1}为数据版本号，{2}为当前数据版本号
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:194
 msgid "{0}（版本{1}，当前状态为{2}）"
-msgstr ""
+msgstr "{0} (versión {1}, estado actual {2})"
 
 # 对话框内容，{0}为不匹配的关卡标识符列表
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:196
@@ -2884,6 +2848,8 @@ msgid ""
 "版本号不匹配：\n"
 "{0}"
 msgstr ""
+"Incompatibilidad de versión:\n"
+"{0}"
 
 # 对话框内容，{0}为丢失的关卡标识符列表
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:198
@@ -2891,6 +2857,8 @@ msgid ""
 "丢失的模组：\n"
 "{0}"
 msgstr ""
+"Mods faltantes:\n"
+"{0}"
 
 # 对话框内容，{0}为多出的关卡标识符列表
 #: Scripts\MVZ2\Level\LevelController\LevelController_Dialogs.cs:200
@@ -2898,6 +2866,8 @@ msgid ""
 "多出的模组：\n"
 "{0}"
 msgstr ""
+"Mods en exceso:\n"
+"{0}"
 
 # 实体提示
 #: Scripts\MVZ2\Level\LevelController\LevelController_Entities.cs:215
@@ -2961,9 +2931,7 @@ msgstr "{0}: {1}"
 #: Scripts\MVZ2\Almanac\AlmanacController.cs:851
 msgctxt "almanac"
 msgid "左键拖拽以移动视图；滚轮以缩放视图"
-msgstr ""
-"Mantenga el botón izquierdo del mouse y arrastre para mover; desplácese para"
-" escalar"
+msgstr "Mantenga el botón izquierdo del mouse y arrastre para mover; desplácese para escalar"
 
 # 图鉴缩放提示文本
 #: Scripts\MVZ2\Almanac\AlmanacController.cs:853
@@ -3119,13 +3087,13 @@ msgstr "Mausoleo Infinito"
 #: Stage meta file
 msgctxt "levelname"
 msgid "圣辇船"
-msgstr ""
+msgstr "Barco"
 
 #. Name for stage mvz2:ship_endless
 #: Stage meta file
 msgctxt "levelname"
 msgid "圣辇船无尽"
-msgstr ""
+msgstr "Barco Infinito"
 
 #. Name for stage mvz2:whack_a_ghost
 #: Stage meta file
@@ -3143,43 +3111,43 @@ msgstr "Breakout"
 #: Stage meta file
 msgctxt "levelname"
 msgid "小僵尸和大麻烦"
-msgstr "Grande Problema Y Pequeño Zombis"
+msgstr "Pequeños pero matones"
 
 #. Name for stage mvz2:ufo_blitz
 #: Stage meta file
 msgctxt "levelname"
 msgid "飞碟闪电战"
-msgstr ""
+msgstr "Blitz de OVNIs"
 
 #. Name for stage mvz2:frankensteins_revenge
 #: Stage meta file
 msgctxt "levelname"
 msgid "科学怪人的复仇"
-msgstr ""
+msgstr "La venganza de Frankenstein"
 
 #. Name for stage mvz2:nightmares_revenge
 #: Stage meta file
 msgctxt "levelname"
 msgid "梦魇的复仇"
-msgstr ""
+msgstr "La venganza de la Pesadilla"
 
 #. Name for stage mvz2:withers_revenge
 #: Stage meta file
 msgctxt "levelname"
 msgid "凋灵的复仇"
-msgstr ""
+msgstr "La venganza del Wither"
 
 #. Name for stage mvz2:the_giants_revenge
 #: Stage meta file
 msgctxt "levelname"
 msgid "巨人的复仇"
-msgstr ""
+msgstr "La venganza del Gigante"
 
 #. Name for stage mvz2:red_dragons_revenge
 #: Stage meta file
 msgctxt "levelname"
 msgid "红龙的复仇"
-msgstr ""
+msgstr "La venganza del Dragón Rojo"
 
 #. Name for stage mvz2:puzzle_i_zombie
 #: Stage meta file
@@ -3263,19 +3231,19 @@ msgstr "Artilugios evocados"
 #: Stats meta file
 msgctxt "stat_category"
 msgid "怪物生成"
-msgstr ""
+msgstr "Monstruos generados"
 
 #. Name for stat category mvz2:enemy_neutralize
 #: Stats meta file
 msgctxt "stat_category"
 msgid "消灭怪物"
-msgstr ""
+msgstr "Monstruos eliminados"
 
 #. Name for stat category mvz2:enemy_gameover
 #: Stats meta file
 msgctxt "stat_category"
 msgid "被怪物击杀"
-msgstr ""
+msgstr "Muertes por monstruos"
 
 #. Name for stat category mvz2:max_endless_flags
 #: Stats meta file
@@ -3317,7 +3285,7 @@ msgstr "Yo, Zombi - Juego Terminado"
 #: Stats meta file
 msgctxt "stat_entry"
 msgid "被蛋糕欺骗"
-msgstr ""
+msgstr "Engañado por el pastel"
 
 #. Name for achievement mvz2:ghost_buster
 #: Achievements meta file
@@ -3341,7 +3309,7 @@ msgstr "Doble Golpe"
 #: Achievements meta file
 msgctxt "achievement"
 msgid "使用冲击活塞将一个怪物推到另一个冲击活塞面前。"
-msgstr ""
+msgstr "Empuja un monstruo usando un Pistón Golpeador hasta el frente de otro Pistón Golpeador."
 
 #. Name for achievement mvz2:rickroll_drown
 #: Achievements meta file
@@ -3377,9 +3345,7 @@ msgstr "Duelo de Hinotizados"
 #: Achievements meta file
 msgctxt "achievement"
 msgid "用友好的怪物杀死敌对的器械，或者让器械反杀怪物。"
-msgstr ""
-"Mata a un artilugio hostil con un monstruo aliado, o mata al monstruo con un"
-" artilugio."
+msgstr "Mata a un artilugio hostil con un monstruo aliado, o mata al monstruo con un artilugio."
 
 #. Name for achievement mvz2:bonebreaker
 #: Achievements meta file
@@ -3421,25 +3387,25 @@ msgstr "Evoca un Jarrón de Deseo para robar 2 planos de Jarrón de Deseo. "
 #: Achievements meta file
 msgctxt "achievement"
 msgid "电磁炮"
-msgstr ""
+msgstr "Cañón electromagnético"
 
 #. Description for achievement mvz2:railgun
 #: Achievements meta file
 msgctxt "achievement"
 msgid "使用被闪电充能的TNT杀死一只炮手僵尸。"
-msgstr ""
+msgstr "Mata a un zombi artillero usando TNT cargado con electricidad."
 
 #. Name for achievement mvz2:midas_touchdown
 #: Achievements meta file
 msgctxt "achievement"
 msgid "金无足赤"
-msgstr ""
+msgstr "Toque de Midas"
 
 #. Description for achievement mvz2:midas_touchdown
 #: Achievements meta file
 msgctxt "achievement"
 msgid "在不使用重力的情况下，使一只无头骑士被地板杀死。"
-msgstr ""
+msgstr "Mata a un Dullahan usando el suelo sin utilizar la gravedad."
 
 #. Name for music mvz2:mainmenu
 #: Music meta file
@@ -3518,7 +3484,8 @@ msgid ""
 "实在是太可惜了。"
 msgstr ""
 "El tema para los niveles de Halloween\n"
-"Esto es originario de otro buen juego hecho por PopCap, <i>Bookworm Adventures</i>. La calidad de la producción es magnífica, pero, por desgracia, su popularidad fue demasiada baja y su fuerte dependencia del inglés le impidió llegar a una audiencia global.\n"
+"Esto es originario de otro buen juego hecho por PopCap, <i>Bookworm Adventures</i>. La calidad de la producción es magnífica, pero, por desgracia, su popularidad fue demasiada baja y su fuerte dependencia del inglés le impidió "
+"llegar a una audiencia global.\n"
 "Qué lástima..."
 
 #. Name for music mvz2:halloween_map
@@ -3538,7 +3505,8 @@ msgid ""
 msgstr ""
 "El tema para el mapa de Halloween.\n"
 "Entonces, ¿Dónde se usó originalmente esta serie con este tema?\n"
-"El protagonista de <i>Bookworm Adventures</i>, Lex, es un gusano de biblioteca encargada de gestionar los libros de la Gran Biblioteca. Lex viaja a través de tres libros: La Mitología Griega, la Mitología Egipcia y Historias de Monstruos Europeos.\n"
+"El protagonista de <i>Bookworm Adventures</i>, Lex, es un gusano de biblioteca encargada de gestionar los libros de la Gran Biblioteca. Lex viaja a través de tres libros: La Mitología Griega, la Mitología Egipcia y Historias de "
+"Monstruos Europeos.\n"
 "Este tema proviene del tercer libro—Historias de Monstruos Europeos. En el juego es titulo como <i>Lexonomicon</i>, una combinación de nombre de Lex y <i>The Necronomicón</i>."
 
 #. Name for music mvz2:minigame
@@ -3577,7 +3545,7 @@ msgstr ""
 #: Music meta file
 msgctxt "music.name"
 msgid "莱克死灵之书-头目"
-msgstr ""
+msgstr "Lexonomicon Boss"
 
 #. Description for music mvz2:halloween_boss
 #: Music meta file
@@ -3591,8 +3559,10 @@ msgid ""
 msgstr ""
 "El tema del Monstruo de Frankenstein.\n"
 "El <i>Lexonomicon</i> presenta una plétora de monstruos europeos, incluyendo, por supuesto, a Frankenstein y su criatura.\n"
-"<i>Frankenstein</i> es una reconocida novela de terror y ciencia ficción. En la historia, el científico Victor Frankenstein crea un monstruo con partes del cuerpo cosidas. Sin embargo, al darle vida, queda horrorizado por su criatura y la abandona.\n"
-"El monstruo no es inherentemente malvado, pero se ve afectado por una hostilidad e indiferencia implacables. Finalmente, cae en la locura, lo que lleva a un final trágico donde tanto el monstruo como su creador, Frankenstein, perecen juntos.\n"
+"<i>Frankenstein</i> es una reconocida novela de terror y ciencia ficción. En la historia, el científico Victor Frankenstein crea un monstruo con partes del cuerpo cosidas. Sin embargo, al darle vida, queda horrorizado por su "
+"criatura y la abandona.\n"
+"El monstruo no es inherentemente malvado, pero se ve afectado por una hostilidad e indiferencia implacables. Finalmente, cae en la locura, lo que lleva a un final trágico donde tanto el monstruo como su creador, Frankenstein, "
+"perecen juntos.\n"
 "¿Te recuerda esto a ti mismo, Steve?"
 
 #. Name for music mvz2:dream_level
@@ -3637,7 +3607,8 @@ msgid ""
 "如同这美丽的梦境世界一样。"
 msgstr ""
 "El Tema para el mapa de Mundo de Sueño\n"
-"<i>Cuentos de Hadas fracturadas</i> presenta una gran cantidad de cuentos clásicos y rimas infantiles—<i>Los tres cerditos</i>, <i>Ricitos de Oro y los tres osos</i>, Y el más icónico de todos, <i>Alicia en el País de las Maravillas</i>.\n"
+"<i>Cuentos de Hadas fracturadas</i> presenta una gran cantidad de cuentos clásicos y rimas infantiles—<i>Los tres cerditos</i>, <i>Ricitos de Oro y los tres osos</i>, Y el más icónico de todos, <i>Alicia en el País de las "
+"Maravillas</i>.\n"
 "Lex participa en batallas fantásticas con estos innumerables personajes de cuentos de hadas. \n"
 "Muy similar a la belleza del propio Mundo de Sueño."
 
@@ -3732,7 +3703,8 @@ msgid ""
 msgstr ""
 "El Tema para el nivel final de Mundo de la Pesadilla\n"
 "Esto es tema en el Escenario en <i>Legacy of Lunatic Kingdom</i>, que también sirve como tema previo a la batalla de Doremy.\n"
-"Doremy, maldecida por Pesadilla, está al borde de la muerte. Steve podría haber escapado, pero por ella, está decidido a destruir la pesadilla a cualquier precio. Al igual que este tema, el momento está lleno de heroísmo trágico.\n"
+"Doremy, maldecida por Pesadilla, está al borde de la muerte. Steve podría haber escapado, pero por ella, está decidido a destruir la pesadilla a cualquier precio. Al igual que este tema, el momento está lleno de heroísmo "
+"trágico.\n"
 "Espera, Doremy. Te salvaremos."
 
 #. Name for music mvz2:nightmare_boss
@@ -3995,7 +3967,7 @@ msgstr ""
 #: Music meta file
 msgctxt "music.name"
 msgid "惊疑星球-头目"
-msgstr ""
+msgstr "Astounding Planet Boss"
 
 #. Description for music mvz2:wither_boss
 #: Music meta file
@@ -4009,7 +3981,8 @@ msgstr ""
 "El Tema de Wither.\n"
 "El tema de Wither. \n"
 "Como se mencionó anteriormente sobre la historia de Lex en<I>Bookworm Adventures Vol. 2</i>, saltemos el quinto libro y centrémonos en el sexto.\n"
-"El sexto libro que recorre Lex, que también es el último, se titula <i>Planeta Asombroso</i>. Incorpora fuertes elementos de ciencia ficción: naves espaciales, robots, mutaciones, viajes en el tiempo... Pero no puedo decir más.\n"
+"El sexto libro que recorre Lex, que también es el último, se titula <i>Planeta Asombroso</i>. Incorpora fuertes elementos de ciencia ficción: naves espaciales, robots, mutaciones, viajes en el tiempo... Pero no puedo decir "
+"más.\n"
 "Porque el <I>Gran Hermano</i> me está mirando."
 
 #. Name for music mvz2:mausoleum_map
@@ -4157,6 +4130,12 @@ msgid ""
 "你走进头目的房间，却发现房间内空无一人。\n"
 "令人恐惧，而又怀念的回忆。"
 msgstr ""
+"El tema del Gigante.\n"
+"Las 2 versiones son \"Shadow Devil\" (de Mega Man X5) y \"Dr. Wily Stage Boss\" (de Mega Man).\n"
+"Estas sirven como temas para los jefes \"Shadow Devil\" y \"Yellow Devil\", respectivamente.\n"
+"<b>Estos dos jefes también son las principales inspiraciones de diseño para El Gigante.</b>\n"
+"Entras a la sala del jefe, solo para encontrarla vacía.\n"
+"Un recuerdo aterrador, pero nostálgico."
 
 #. Name for music mvz2:mausoleum_boss_2
 #: Music meta file
@@ -4188,7 +4167,7 @@ msgstr ""
 #: Music meta file
 msgctxt "music.name"
 msgid "美猴王-地图"
-msgstr ""
+msgstr "Monkey King Map"
 
 #. Description for music mvz2:ship_map
 #: Music meta file
@@ -4199,18 +4178,23 @@ msgid ""
 "这本书中充斥着大量的有着中国元素的敌人：猛兽、神话、生肖、鬼怪……内容十分惊艳。\n"
 "这也是我最喜欢的一本书。"
 msgstr ""
+"El tema para el mapa de Barco Palanquín.\n"
+"En <i>Bookworm Adventures Vol. 2</i>, después de que Lex regresa a la Gran Biblioteca desde Cuentos de Hadas Fragmentados, EviLex aparece de repente y roba la Pluma Mágica, para luego arrastrarlo al Libro 5—<i>El Rey Mono</i>.\n"
+"Este libro está lleno de enemigos con numerosos elementos chinos: bestias míticas, mitología, zodiaco, fantasmas...\n"
+"El contenido es realmente increíble.\n"
+"Este también es mi libro favorito."
 
 #. Name for music mvz2:ship_level
 #: Music meta file
 msgctxt "music.name"
 msgid "晴空中的UFO恋曲"
-msgstr ""
+msgstr "UFO Romance in the Sunny Sky"
 
 #. Origin for music mvz2:ship_level
 #: Music meta file
 msgctxt "music.origin"
 msgid "夜空中的UFO恋曲"
-msgstr ""
+msgstr "UFO Romance in the Night Sky"
 
 #. Description for music mvz2:ship_level
 #: Music meta file
@@ -4221,12 +4205,16 @@ msgid ""
 "晴空一片，万里无云——哦抱歉，云还是有的。\n"
 "史蒂夫踏上了这艘飞在空中的船，开始了他新的征程。"
 msgstr ""
+"El tema para los niveles de Barco Palanquín.\n"
+"La banda sonora original es <i>UFO Romance in the Night Sky</i> del nivel extra de <i>Undefined Fantastic Object</i>.\n"
+"El cielo está despejado, sin una sola nube—oh, lo siento, aún hay algunas nubes.\n"
+"Steve aborda este barco que vuela por el aire y zarpa hacia su nueva aventura."
 
 #. Name for music mvz2:ship_final
 #: Music meta file
 msgctxt "music.name"
 msgid "魔界地方都市秘境"
-msgstr ""
+msgstr "Rural Makai City Esoteria"
 
 #. Description for music mvz2:ship_final
 #: Music meta file
@@ -4239,12 +4227,18 @@ msgid ""
 "下面的人想飞上来，上面的人却也想落下去。\n"
 "然而，这重重阴云把他们隔开，怎么也无法如愿。"
 msgstr ""
+"El tema para el nivel final de Barco Palanquín.\n"
+"Esta banda sonora proviene del quinto nivel de <i>Undefined Fantastic Object</i>.\n"
+"El cielo estaba nublado, y aun así el barco se bañaba en la luz del sol.\n"
+"Uno ha vivido toda su vida a la sombra de la muerte de su ser querido, mientras que el otro ha vivido bajo la luz de mil elogios.\n"
+"El de abajo anhela el cielo, mientras que el de arriba sueña con aterrizar.\n"
+"Sin embargo, las densas nubes se interponen entre ellos, por más que lo deseen."
 
 #. Name for music mvz2:ship_boss
 #: Music meta file
 msgctxt "music.name"
 msgid "美猴王-头目"
-msgstr ""
+msgstr "Monkey King Boss"
 
 #. Description for music mvz2:ship_boss
 #: Music meta file
@@ -4255,6 +4249,16 @@ msgid ""
 "玉皇大帝告诉他，Lex的旅程尚未结束，他们发现了一种威胁，一种威胁到所有书中世界的威胁。Lex觉得这是邪恶Lex所为，但玉皇大帝却认为，Lex无法击败邪恶Lex。\n"
 "最终，Lex离开了这本书，再次回到了图书馆。"
 msgstr ""
+"El tema del Dragón Rojo.\n"
+"En Bookworm Adventures Vol. 2, el protagonista Lex derrotó a enemigos "
+"poderosos, obtuvo muchos tesoros preciosos y se hizo amigo de Wong Fei Hong y "
+"del Rey Mono en el libro El Rey Mono. Juntos, finalmente "
+"derrotaron a los Cuatro Reyes Celestiales y a Er-lang Shen, llegando al cielo.\n"
+"El Emperador de Jade le dijo a Lex que su viaje aún no ha terminado, ya que "
+"habían descubierto una amenaza que pone en peligro todos los mundos del libro. Lex sospechó "
+"que EviLex debía estar detrás de esto, pero el Emperador de Jade creía que Lex "
+"no podría derrotar a EviLex.\n"
+"Al final, Lex salió del libro y regresó a la biblioteca una vez más."
 
 #. Name for archive tag mvz2:prologue
 #: Archive meta file
@@ -4290,13 +4294,13 @@ msgstr "Castillo"
 #: Archive meta file
 msgctxt "archive.tagname"
 msgid "梦殿大祀庙"
-msgstr "The Hall of Dreams' Great Mausoleum"
+msgstr "Mausoleo"
 
 #. Name for archive tag mvz2:ship
 #: Archive meta file
 msgctxt "archive.tagname"
 msgid "圣辇船"
-msgstr ""
+msgstr "Barco"
 
 #. Name for archive tag mvz2:tutorial
 #: Archive meta file
@@ -4386,7 +4390,7 @@ msgstr "No puedes colocar este artilugio en la tierra"
 #: Grid meta file
 msgctxt "advice"
 msgid "你不能在空中放置该器械"
-msgstr ""
+msgstr "No puedes colocar este artilugio en el aire"
 
 #. Message for grid error mvz2:only_can_sleep
 #: Grid meta file
@@ -4428,9 +4432,7 @@ msgstr "¡Un hombre ahorcado te trae suerte hoy!"
 #: Store meta file
 msgctxt "store_talk"
 msgid "你根本不知道在海的这边泥土有多值钱！"
-msgstr ""
-"¡No tienes idea de cuánto se venden los Bloques de Tierra en este lado del "
-"mar!"
+msgstr "¡No tienes idea de cuánto se venden los Bloques de Tierra en este lado del mar!"
 
 #. Store chat from character mvz2:crazy_villager
 #: Store meta file
@@ -4454,9 +4456,7 @@ msgstr "¡Esta alfombra no está a la venta!"
 #: Store meta file
 msgctxt "store_talk"
 msgid "有人放彩色石头的悬崖下面通常有好东西！"
-msgstr ""
-"¡Las montañas con algunos escombros de arcoíris generalmente esconden "
-"tesoros debajo!"
+msgstr "¡Las montañas con algunos escombros de arcoíris generalmente esconden tesoros debajo!"
 
 #. Store chat from character mvz2:tokiko
 #: Store meta file
@@ -4474,9 +4474,7 @@ msgstr "¿Te animas a leer este libro? ¡Es muy interesante!"
 #: Store meta file
 msgctxt "store_talk"
 msgid "听说，外界的公主一旦陷入危机，就会有一位骑士前来救她呢。"
-msgstr ""
-"Escuché que en el mundo exterior, cuando una princesa está en problemas, un "
-"caballero siempre viene a rescatarla."
+msgstr "Escuché que en el mundo exterior, cuando una princesa está en problemas, un caballero siempre viene a rescatarla."
 
 #. Store chat from character mvz2:tokiko
 #: Store meta file
@@ -4488,17 +4486,13 @@ msgstr "¿Todas las personas de tu mundo son cúbicas?"
 #: Store meta file
 msgctxt "store_talk"
 msgid "虽然这里存在着危险的妖怪，不过像我一样比较弱的妖怪还是更多呢。"
-msgstr ""
-"Aunque aquí hay youkai peligrosos, en realidad hay muchos más débiles como "
-"yo."
+msgstr "Aunque aquí hay youkai peligrosos, en realidad hay muchos más débiles como yo."
 
 #. Store chat from character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "科幻故事我看不懂，我还是更喜欢童话故事一点……"
-msgstr ""
-"No me gustan mucho las historias de ciencia ficción. Prefiero los cuentos de"
-" hadas..."
+msgstr "No me gustan mucho las historias de ciencia ficción. Prefiero los cuentos de hadas..."
 
 #. Store chat from character mvz2:tokiko
 #: Store meta file
@@ -4517,15 +4511,13 @@ msgstr "¿Por qué los dispensadores tienen una bonita carita?"
 #: Store meta file
 msgctxt "store_talk"
 msgid "额外的蓝图槽！让你能在战斗中多携带一个器械！"
-msgstr ""
-"¡Ranura extra para planos! ¡Te permite llevar un artilugio más a la batalla!"
+msgstr "¡Ranura extra para planos! ¡Te permite llevar un artilugio más a la batalla!"
 
 #. Store item description of mvz2:blueprint_slot by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "这个是额外的蓝图槽，可以让你多带一个器械！"
-msgstr ""
-"¡Ranura extra para planos! ¡Te permite llevar un artilugio más a la batalla!"
+msgstr "¡Ranura extra para planos! ¡Te permite llevar un artilugio más a la batalla!"
 
 #. Store item text of mvz2:blueprint_slot
 #: Store meta file
@@ -4552,17 +4544,13 @@ msgstr "10 Ranuras"
 #: Store meta file
 msgctxt "store_talk"
 msgid "更多的星之碎片槽！让你的器械爆发吧！"
-msgstr ""
-"¡Más ranuras para Fragmentos de Estrellas! ¡Deja que tus artilugios evoquen "
-"más!"
+msgstr "¡Más ranuras para Fragmentos de Estrellas! ¡Deja que tus artilugios evoquen más!"
 
 #. Store item description of mvz2:starshard_slot by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "这个可以让你多带一些很神奇的东西，据说器械们很喜欢呢！"
-msgstr ""
-"Esto te permite llevar más cosas mágicas- ¡dicen que a los artilugios les "
-"encantan!."
+msgstr "Esto te permite llevar más cosas mágicas- ¡dicen que a los artilugios les encantan!."
 
 #. Store item text of mvz2:starshard_slot
 #: Store meta file
@@ -4579,16 +4567,13 @@ msgstr "5 Ranuras"
 #: Store meta file
 msgctxt "store_talk"
 msgid "更多的制品槽！让你能带更多亮闪闪的小玩意！"
-msgstr ""
-"¡Ranuras adicionales para artefactos! ¡Decórate con más baratijas preciosas!"
+msgstr "¡Ranuras adicionales para artefactos! ¡Decórate con más baratijas preciosas!"
 
 #. Store item description of mvz2:artifact_slot by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "这个可以让你带更多的小装饰品！我可喜欢打扮了！"
-msgstr ""
-"¡Esto te permitirá guardar más chucherías elegantes! ¡Los accesorios son mi "
-"favorito, ya sabes!"
+msgstr "¡Esto te permitirá guardar más chucherías elegantes! ¡Los accesorios son mi favorito, ya sabes!"
 
 #. Store item text of mvz2:artifact_slot
 #: Store meta file
@@ -4605,68 +4590,50 @@ msgstr "3 Ranuras"
 #: Store meta file
 msgctxt "store_talk"
 msgid "黑曜石修复术！可以在防御性器械上再放一个同样的器械，以此来完全修复它！"
-msgstr ""
-"¡Primeros auxilios de obsidiana! Puedes colocar otro artilugio defensivo "
-"idéntico sobre el existente para repararlo por completo."
+msgstr "¡Primeros auxilios de obsidiana! Puedes colocar otro artilugio defensivo idéntico sobre el existente para repararlo por completo."
 
 #. Store item description of mvz2:obsidian_first_aid by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "修复器械们的神奇技术！可以在防御性器械上再放一个同样的器械，来把它完全修好！"
-msgstr ""
-"¡Una técnica mágica para reparar artefactos! Puedes colocar otro artefacto "
-"defensivo idéntico sobre el existente para repararlo por completo."
+msgstr "¡Una técnica mágica para reparar artefactos! Puedes colocar otro artefacto defensivo idéntico sobre el existente para repararlo por completo."
 
 #. Store item description of mvz2:infectenser by character mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "把传染发射器放在小型发射器上，让它发射的子弹能够在敌人之间传播！"
-msgstr ""
-"¡Colo Infectadores en tus Dispesadores Pequeños! ¡Los proyectiles que "
-"disparan pueden propagarse entre los enemigos!"
+msgstr "¡Colo Infectadores en tus Dispesadores Pequeños! ¡Los proyectiles que disparan pueden propagarse entre los enemigos!"
 
 #. Store item description of mvz2:infectenser by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "传染发射器能升级小型发射器，这样它就能在怪物之间散播互相攻击的种子了！"
-msgstr ""
-"El Infectador es una mejora para el Pequeño Dispensador. Esto dispara "
-"pequeños parásitos que se propagan entre si."
+msgstr "El Infectador es una mejora para el Pequeño Dispensador. Esto dispara pequeños parásitos que se propagan entre si."
 
 #. Store item description of mvz2:force_pad by character mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "把传动力板放在重力板上，让它能够操纵上方子弹和敌人的位置！"
-msgstr ""
-"Coloca Paneles de Fuerza en los Paneles de Gravedad. ¡Pueden controlar el "
-"movimiento de los objetos sobre ellos!"
+msgstr "Coloca Paneles de Fuerza en los Paneles de Gravedad. ¡Pueden controlar el movimiento de los objetos sobre ellos!"
 
 #. Store item description of mvz2:force_pad by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "传动力板能升级重力板，能改变很多很多东西的位置，很方便！"
-msgstr ""
-"El Panel de Fuerza es una versión mejorada de Panel de Gravedad. Permite "
-"cambiar la posición de muchas cosas, ¡muy práctico!"
+msgstr "El Panel de Fuerza es una versión mejorada de Panel de Gravedad. Permite cambiar la posición de muchas cosas, ¡muy práctico!"
 
 #. Store item description of mvz2:golden_dropper by character
 #. mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "把金制投掷器放在木制投掷器上，让它能够发射可以反弹，并产生绿宝石的金球！"
-msgstr ""
-"¡Colocalos en los Soltadores de Madera para volverlos Soltadores Dorados! "
-"¡Deja caer una bola dorada que puede rebotar en múltiples zombies y arroja "
-"esmeraldas al impactar!"
+msgstr "¡Colocalos en los Soltadores de Madera para volverlos Soltadores Dorados! ¡Deja caer una bola dorada que puede rebotar en múltiples zombies y arroja esmeraldas al impactar!"
 
 #. Store item description of mvz2:golden_dropper by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "金制投掷器能升级木制投掷器，能发出不停弹来弹去，并且可以赚钱的金球！"
-msgstr ""
-"Los Soltadores Dorado se colocan encima de los Soltadores de Madera para "
-"mejorarlos al dorados. ¡Dispara bolas doradas que rebotan y que pueden "
-"generar dinero!"
+msgstr "Los Soltadores Dorado se colocan encima de los Soltadores de Madera para mejorarlos al dorados. ¡Dispara bolas doradas que rebotan y que pueden generar dinero!"
 
 #. Store item description of mvz2:skyward_beacon by character
 #. mvz2:crazy_villager
@@ -4674,46 +4641,41 @@ msgstr ""
 msgctxt "store_talk"
 msgid "把御天信标放在信标上，让它发射从天而降的致命光束，打击你所指定的位置！"
 msgstr ""
+"Coloca Faros Celestiales sobre tus Faros. ¡Pueden atacar ciertos puntos establecidos "
+"por ti, con sus mortíferos rayos de luz!"
 
 #. Store item description of mvz2:skyward_beacon by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "御天信标能升级信标，发射从天而降的光束，打击你想要的任意位置！"
 msgstr ""
+"¡El Faro Celestial se puede mejorar desde un Faro, dispara rayos de luz "
+"para atacar cualquier punto específico según desees!"
 
 #. Store item description of mvz2:hoe by character mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "我以前用过的锄头！每场战斗它都能杀死最开始出现的那只怪物！"
-msgstr ""
-"¡La azada que usaba antes! ¡Puede matar al primer enemigo que aparece en "
-"cada batalla!"
+msgstr "¡La azada que usaba antes! ¡Puede matar al primer enemigo que aparece en cada batalla!"
 
 #. Store item description of mvz2:hoe by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "村民先生的锄头，每场战斗都能给第一只来的怪物当头一棒！"
-msgstr ""
-"¡La azada del Señor Aldeano sabe cómo eliminar al primer enemigo que aparece"
-" en cada batalla!"
+msgstr "¡La azada del Señor Aldeano sabe cómo eliminar al primer enemigo que aparece en cada batalla!"
 
 #. Store item description of mvz2:the_creatures_heart by character
 #. mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "科学怪人的怪物的心脏！你的场上每有一个相同的器械，这个器械的能量消耗就会减少5！"
-msgstr ""
-"¡El corazón de La Criatura! Por cada copia de un artilugio que tengas en el "
-"jardín, ¡su costo se reduce en 5!"
+msgstr "¡El corazón de La Criatura! Por cada copia de un artilugio que tengas en el jardín, ¡su costo se reduce en 5!"
 
 #. Store item description of mvz2:the_creatures_heart by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "很奇怪的心脏……由于它在渴望同类，你的场上每有一个相同的器械，这个器械的能量消耗就会减少5！"
-msgstr ""
-"Un corazón extraño... Debido a su anhelo por los de su especie, por cada "
-"copia de un artilugio que tengas en el césped, ¡el costo de este artilugio "
-"se reduce en 5!"
+msgstr "Un corazón extraño... Debido a su anhelo por los de su especie, por cada copia de un artilugio que tengas en el césped, ¡el costo de este artilugio se reduce en 5!"
 
 #. Store item description of mvz2:pagoda_branch by character
 #. mvz2:crazy_villager
@@ -4721,97 +4683,77 @@ msgstr ""
 msgctxt "store_talk"
 msgid "产自梦境世界的槐树的树枝！你在开始战斗时额外获得2个星之碎片，但是会出现额外2倍多的怪物！"
 msgstr ""
+"¡La rama de una sófora del Mundo de los Sueños! Te otorga 2 Fragmentos de "
+"Estrellas para comenzar en cada batalla, ¡pero habrá el doble de monstruos!"
 
 #. Store item description of mvz2:pagoda_branch by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "来自槐树上的树枝，战斗开始时它能额外给你2个神奇的碎片，但是也会额外出现2倍多的怪物！"
-msgstr ""
-"Una rama de un árbol pagoda. Te da 2 fragmentos de estrella para comenzar en"
-" cada batalla. ¡Pero habrá 2 veces más enemigos!"
+msgstr "Una rama de un árbol pagoda. Te da 2 fragmentos de estrella para comenzar en cada batalla. ¡Pero habrá 2 veces más enemigos!"
 
 #. Store item description of mvz2:dark_matter by character mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "从梦魇身上提取出来的暗物质！器械生产效率翻倍，但是场景会变得很黑！"
-msgstr ""
-"¡Materia oscura extraída de la mismísima Pesadilla! ¡Los artilugios producen"
-" al doble de velocidad, pero el escenario se oscurecerá!"
+msgstr "¡Materia oscura extraída de la mismísima Pesadilla! ¡Los artilugios producen al doble de velocidad, pero el escenario se oscurecerá!"
 
 #. Store item description of mvz2:dark_matter by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "一种很黑的东西，它能让器械生产效率翻倍，但是场景会变得很暗！"
-msgstr ""
-"¡Alguna cosa oscura que hace que los artilugios produzcan al doble de "
-"velocidad, pero el escenario se oscurecerá!"
+msgstr "¡Alguna cosa oscura que hace que los artilugios produzcan al doble de velocidad, pero el escenario se oscurecerá!"
 
 #. Store item description of mvz2:inverted_mirror by character
 #. mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "我不小心把这个镜子放反了！现在它可以让敌人发射的子弹击中其他敌人了！"
-msgstr ""
-"¡Accidentalmente puse este espejo en reversa! ¡Ahora puede hacer que los "
-"proyectiles enemigos impacten a otros enemigos!"
+msgstr "¡Accidentalmente puse este espejo en reversa! ¡Ahora puede hacer que los proyectiles enemigos impacten a otros enemigos!"
 
 #. Store item description of mvz2:inverted_mirror by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "不知道为什么倒过来的镜子……总之它可以让敌人的子弹击中他们自己！"
-msgstr ""
-"No sé por qué este espejo está invertido... ¡De todos modos, puede hacer que"
-" los proyectiles de los enemigos los golpeen!"
+msgstr "No sé por qué este espejo está invertido... ¡De todos modos, puede hacer que los proyectiles de los enemigos los golpeen!"
 
 #. Store item description of mvz2:nether_star by character mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "下界之星！每当你使用4次星之碎片，会再次生成一个星之碎片！"
-msgstr ""
-"¡La Estrella del Nether! ¡Genera un fragmento de estrella por cada 4 que "
-"uses!"
+msgstr "¡La Estrella del Nether! ¡Genera un fragmento de estrella por cada 4 que uses!"
 
 #. Store item description of mvz2:nether_star by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "闪亮亮的星星！每当你使用4次神奇的碎片，会再次生成一个神奇的碎片！"
-msgstr ""
-"¡Una estrella brillante! ¡Genera un fragmento de estrella por cada 4 "
-"fragmentos de estrellas que uses!"
+msgstr "¡Una estrella brillante! ¡Genera un fragmento de estrella por cada 4 fragmentos de estrellas que uses!"
 
 #. Store item description of mvz2:greedy_vacuum by character
 #. mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "贪婪的吸尘器！可以自动帮你收集能量掉落物和星之碎片！"
-msgstr ""
-"¡Aspiradora Codisiosa! ¡Puede ayudarte a recolectar automáticamente los "
-"objetos de energía y fragmentos estelares que se caen!"
+msgstr "¡Aspiradora Codisiosa! ¡Puede ayudarte a recolectar automáticamente los objetos de energía y fragmentos estelares que se caen!"
 
 #. Store item description of mvz2:greedy_vacuum by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "看起来很饿的吸尘器……可以自动帮你吸取粉尘和神奇的碎片！"
-msgstr ""
-"Parece una aspiradora muy hambrienta... ¡puede aspirar automáticamente polvo"
-" y fragmentos de estrallas para ti!"
+msgstr "Parece una aspiradora muy hambrienta... ¡puede aspirar automáticamente polvo y fragmentos de estrallas para ti!"
 
 #. Store item description of mvz2:eye_of_the_giant by character
 #. mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "巨人的眼睛！你的器械造成的伤害变为两倍半，但是攻击速度也会减半！"
-msgstr ""
-"¡Ojo del Gigante! El daño de tus artefactos se duplica, pero su velocidad de"
-" ataque se reduce a la mitad."
+msgstr "¡Ojo del Gigante! El daño de tus artefactos se duplica, pero su velocidad de ataque se reduce a la mitad."
 
 #. Store item description of mvz2:eye_of_the_giant by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "有点吓人的大眼睛……它能让你的器械造成巨额伤害，但是攻击速度会变慢许多！"
-msgstr ""
-"Un ojo grande y aterrador... ¡Puede hacer que tus artilugios inflijan un "
-"daño masivo, pero ataquen mucho más lentamente!"
+msgstr "Un ojo grande y aterrador... ¡Puede hacer que tus artilugios inflijan un daño masivo, pero ataquen mucho más lentamente!"
 
 #. Store item description of mvz2:dowsing_rods by character
 #. mvz2:crazy_villager
@@ -4819,12 +4761,15 @@ msgstr ""
 msgctxt "store_talk"
 msgid "探宝棒！可以让你从怪物身上搜刮出一些战利品！"
 msgstr ""
+"¡Varillas de radiestesia! ¡Te permiten saquear algunos botines de los monstruos!"
 
 #. Store item description of mvz2:dowsing_rods by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "老鼠的探宝棒！可以让你从怪物们身上得到一些额外的东西！"
 msgstr ""
+"¡Las varillas de radiestesia del ratón! ¡Te permiten obtener algunas cosas "
+"extras de los monstruos!"
 
 #. Store item description of mvz2:dragon_tooth by character
 #. mvz2:crazy_villager
@@ -4832,24 +4777,28 @@ msgstr ""
 msgctxt "store_talk"
 msgid "红龙的牙齿！受重伤的敌人会受到两倍伤害！"
 msgstr ""
+"¡El diente caído del dragón rojo! ¡Si un enemigo está gravemente herido, "
+"sufrirá aún más daño!"
 
 #. Store item description of mvz2:dragon_tooth by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "红龙掉下来的牙齿！如果一个敌人受了重伤，它会受到更多的伤害！"
 msgstr ""
+"¡El diente del dragón rojo! ¡Los enemigos que estén gravemente heridos recibirán "
+"el doble de daño!"
 
 #. Store item description of mvz2:cake by character mvz2:crazy_villager
 #: Store meta file
 msgctxt "store_talk"
 msgid "蛋糕！在你完成所有内容后，来大吃一顿吧！"
-msgstr ""
+msgstr "¡Pastel! ¡Después de que termines todo el contenido, ven y date un gran festín!"
 
 #. Store item description of mvz2:cake by character mvz2:tokiko
 #: Store meta file
 msgctxt "store_talk"
 msgid "蛋糕！在一切都结束之后，来大吃一顿吧！"
-msgstr ""
+msgstr "¡Pastel! ¡Después de que todo termine, ven y date un gran festín!"
 
 #. Name for credits category 内容设计
 #: Credits meta file
@@ -4915,31 +4864,31 @@ msgstr "Minecraft Gensokyo Map-TouhouCraft Team"
 #: Credits meta file
 msgctxt "credits_category"
 msgid "地图背景-圣辇船"
-msgstr ""
+msgstr "Fondo de Mapa - Barco"
 
 #. Name for credit staff 地图背景-圣辇船
 #: Credits meta file
 msgctxt "staff_name"
 msgid "传说中的金色小丑鱼"
-msgstr ""
+msgstr "传说中的金色小丑鱼"
 
 #. Name for credit staff 地图背景-圣辇船
 #: Credits meta file
 msgctxt "staff_name"
 msgid "琉"
-msgstr ""
+msgstr "琉"
 
 #. Name for credit staff 地图背景-圣辇船
 #: Credits meta file
 msgctxt "staff_name"
 msgid "creator"
-msgstr ""
+msgstr "creator"
 
 #. Name for credit staff 地图背景-圣辇船
 #: Credits meta file
 msgctxt "staff_name"
 msgid "修瞑"
-msgstr ""
+msgstr "修瞑"
 
 #. Name for credits category 音乐
 #: Credits meta file
@@ -4993,13 +4942,13 @@ msgstr "Charlie Calvin"
 #: Credits meta file
 msgctxt "staff_name"
 msgid "Victor"
-msgstr ""
+msgstr "Victor"
 
 #. Name for credit staff 本地化（英文）
 #: Credits meta file
 msgctxt "staff_name"
 msgid "Boshyko"
-msgstr ""
+msgstr "Boshyko"
 
 #. Name for credits category 特别感谢
 #: Credits meta file
@@ -5023,445 +4972,464 @@ msgstr "正邪の老鼠"
 #: Commands meta file
 msgctxt "command.description"
 msgid "显示帮助界面。"
-msgstr ""
+msgstr "Muestra la lista de comandos."
 
 #. Description for command variant "mvz2:help "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "显示帮助界面。"
-msgstr ""
+msgstr "Muestra la lista de comandos."
 
 #. Description for command variant "mvz2:help "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "查询命令的作用。"
-msgstr ""
+msgstr "Consulta la función de un comando."
 
 #. Description for parameter command of command "mvz2:help "
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "命令名。"
-msgstr ""
+msgstr "Nombre del comando."
 
 #. Description for command "mvz2:spawn"
 #: Commands meta file
 msgctxt "command.description"
 msgid "生成一个实体。"
-msgstr ""
+msgstr "Genera una entidad."
 
 #. Description for command variant "mvz2:spawn pos"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "生成一个实体。默认位置为场地中心。"
 msgstr ""
+"Genera una entidad. La ubicación por defecto es el centro del campo de batalla."
 
 #. Description for parameter id of command "mvz2:spawn pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "要生成的实体ID。"
-msgstr ""
+msgstr "El ID de la entidad a generar."
 
 #. Description for parameter x of command "mvz2:spawn pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。要生成的实体位置的X值。"
-msgstr ""
+msgstr "Opcional. La posición X donde se genera la entidad."
 
 #. Description for parameter y of command "mvz2:spawn pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。要生成的实体位置的Y值。"
-msgstr ""
+msgstr "Opcional. La posición Y donde se genera la entidad."
 
 #. Description for parameter z of command "mvz2:spawn pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。要生成的实体位置的Z值。"
-msgstr ""
+msgstr "Opcional. La posición Z donde se genera la entidad."
 
 #. Description for command variant "mvz2:spawn tile"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "在指定的地格位置生成实体。默认位置为场地中心。"
 msgstr ""
+"Genera una entidad en una casilla específica. La ubicación por defecto es "
+"el centro del campo de batalla."
 
 #. Description for parameter column of command "mvz2:spawn tile"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。实体所在列。0代表最左侧一列，向右递增。"
 msgstr ""
+"Opcional. La columna donde se genera la entidad. 0 representa la columna "
+"del extremo izquierdo, aumentando hacia la derecha."
 
 #. Description for parameter lane of command "mvz2:spawn tile"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。实体所在行。0代表最上方一行，向下递增。"
 msgstr ""
+"Opcional. El carril donde se genera la entidad. 0 representa el carril "
+"superior, aumentando hacia abajo."
 
 #. Description for command "mvz2:kill"
 #: Commands meta file
 msgctxt "command.description"
 msgid "杀死实体。"
-msgstr ""
+msgstr "Mata entidades."
 
 #. Description for command variant "mvz2:kill "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "杀死所有怪物。"
-msgstr ""
+msgstr "Mata a todos los enemigos."
 
 #. Description for command variant "mvz2:kill contraption"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "杀死所有器械。"
-msgstr ""
+msgstr "Mata todos los artilugios."
 
 #. Description for command variant "mvz2:kill obstacle"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "杀死所有障碍物。"
-msgstr ""
+msgstr "Mata todos los obstáculos."
 
 #. Description for command variant "mvz2:kill boss"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "杀死所有头目。"
-msgstr ""
+msgstr "Mata a todos los jefes."
 
 #. Description for command variant "mvz2:kill all"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "杀死所有实体。"
-msgstr ""
+msgstr "Mata todas las entidades."
 
 #. Description for command "mvz2:blueprint"
 #: Commands meta file
 msgctxt "command.description"
 msgid "调整蓝图。"
-msgstr ""
+msgstr "Ajusta los planos."
 
 #. Description for command variant "mvz2:blueprint set"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "将某槽位的蓝图替换为指定ID的蓝图。"
 msgstr ""
+"Reemplaza el plano de un espacio determinado con el plano del "
+"ID especificado."
 
 #. Description for parameter slot of command "mvz2:blueprint set"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "蓝图槽位，0代表第一个槽位，1代表第二个槽位，依此类推。"
 msgstr ""
+"Espacio del plano, 0 representa el primer espacio, 1 representa el segundo "
+"espacio, y así sucesivamente."
 
 #. Description for parameter id of command "mvz2:blueprint set"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "蓝图ID。"
-msgstr ""
+msgstr "ID del plano."
 
 #. Description for command variant "mvz2:blueprint remove"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "移除指定槽位的蓝图。"
-msgstr ""
+msgstr "Elimina el plano de un espacio determinado."
 
 #. Description for command "mvz2:energy"
 #: Commands meta file
 msgctxt "command.description"
 msgid "调整当前能量。"
-msgstr ""
+msgstr "Ajusta la energía actual."
 
 #. Description for command variant "mvz2:energy set"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "设置当前能量。"
-msgstr ""
+msgstr "Establece la energía actual."
 
 #. Description for parameter value of command "mvz2:energy set"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "能量。"
-msgstr ""
+msgstr "Energía"
 
 #. Description for command variant "mvz2:energy add"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "增加或减少当前能量。"
-msgstr ""
+msgstr "Aumenta o disminuye la energía actual."
 
 #. Description for command "mvz2:starshard"
 #: Commands meta file
 msgctxt "command.description"
 msgid "调整当前星之碎片数量。"
-msgstr ""
+msgstr "Ajusta la cantidad actual de Fragmentos de Estrellas."
 
 #. Description for command variant "mvz2:starshard set"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "设置当前星之碎片数量。"
-msgstr ""
+msgstr "Establece la cantidad actual de Fragmentos de Estrellas."
 
 #. Description for parameter value of command "mvz2:starshard set"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "星之碎片数量。"
-msgstr ""
+msgstr "Cantidad de Fragmentos de Estrellas."
 
 #. Description for command variant "mvz2:starshard add"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "增加或减少当前星之碎片数量。"
-msgstr ""
+msgstr "Aumenta o disminuye la cantidad actual de Fragmentos de Estrellas."
 
 #. Description for command "mvz2:recharge"
 #: Commands meta file
 msgctxt "command.description"
 msgid "立即充能所有蓝图。"
-msgstr ""
+msgstr "Recarga instantáneamente todos los planos."
 
 #. Description for command variant "mvz2:recharge "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "立即充能所有蓝图。"
-msgstr ""
+msgstr "Recarga instantáneamente todos los planos."
 
 #. Description for command "mvz2:cheat"
 #: Commands meta file
 msgctxt "command.description"
 msgid "启用关卡中的作弊选项。再次使用后关闭该效果。"
-msgstr ""
+msgstr "Habilita una opción de trampa en el nivel. Úsalo de nuevo para desactivar."
 
 #. Description for command variant "mvz2:cheat energy"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "无限能量。"
-msgstr ""
+msgstr "Energía infinita."
 
 #. Description for command variant "mvz2:cheat recharge"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "所有蓝图无需充能。"
-msgstr ""
+msgstr "Todos los planos ya no necesitan recargarse."
 
 #. Description for command variant "mvz2:cheat starshard"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "无限星之碎片。"
-msgstr ""
+msgstr "Fragmentos de Estrellas infinitas."
 
 #. Description for command variant "mvz2:cheat godmode"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "不会游戏结束。"
-msgstr ""
+msgstr "No podras morir en la partida."
 
 #. Description for command "mvz2:repeat"
 #: Commands meta file
 msgctxt "command.description"
 msgid "重复上一条指令。"
-msgstr ""
+msgstr "Repite el último comando."
 
 #. Description for command variant "mvz2:repeat "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "重复上一条指令。"
-msgstr ""
+msgstr "Repite el último comando."
 
 #. Description for parameter times of command "mvz2:repeat "
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "次数。"
-msgstr ""
+msgstr "Veces."
 
 #. Description for command "mvz2:clear"
 #: Commands meta file
 msgctxt "command.description"
 msgid "清屏。"
-msgstr ""
+msgstr "Limpia la consola."
 
 #. Description for command variant "mvz2:clear "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "清屏。"
-msgstr ""
+msgstr "Limpia la consola."
 
 #. Description for command "mvz2:clearlevel"
 #: Commands meta file
 msgctxt "command.description"
 msgid "生成一个通关掉落物。"
-msgstr ""
+msgstr "Genera un objeto para completar el nivel."
 
 #. Description for command variant "mvz2:clearlevel "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "生成一个通关掉落物。"
-msgstr ""
+msgstr "Genera un objeto para completar el nivel."
 
 #. Description for command "mvz2:save"
 #: Commands meta file
 msgctxt "command.description"
 msgid "保存当前关卡的进度。"
-msgstr ""
+msgstr "Guarda el progreso del nivel actual."
 
 #. Description for command variant "mvz2:save "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "保存当前关卡的进度。"
-msgstr ""
+msgstr "Guarda el progreso del nivel actual."
 
 #. Description for command "mvz2:load"
 #: Commands meta file
 msgctxt "command.description"
 msgid "重新读取当前关卡的进度。"
-msgstr ""
+msgstr "Vuelve a cargar el progreso del nivel actual."
 
 #. Description for command variant "mvz2:load "
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "重新读取当前关卡的进度。"
-msgstr ""
+msgstr "Vuelve a cargar el progreso del nivel actual."
 
 #. Description for command "mvz2:spawnblueprint"
 #: Commands meta file
 msgctxt "command.description"
 msgid "生成指定蓝图掉落物。"
-msgstr ""
+msgstr "Genera un objeto de plano específico."
 
 #. Description for command variant "mvz2:spawnblueprint pos"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "生成指定蓝图掉落物。默认位置为场地中心。"
 msgstr ""
+"Genera un objeto de plano. La ubicación por defecto es el centro del "
+"campo de batalla."
 
 #. Description for parameter id of command "mvz2:spawnblueprint pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "要生成的蓝图掉落物的对应实体ID。"
-msgstr ""
+msgstr "El ID del objeto de plano a generar."
 
 #. Description for parameter x of command "mvz2:spawnblueprint pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。要生成的掉落物位置的X值。"
-msgstr ""
+msgstr "Opcional. La posición X donde se genera el objeto."
 
 #. Description for parameter y of command "mvz2:spawnblueprint pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。要生成的掉落物位置的Y值。"
-msgstr ""
+msgstr "Opcional. La posición Y donde se genera el objeto."
 
 #. Description for parameter z of command "mvz2:spawnblueprint pos"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。要生成的掉落物位置的Z值。"
-msgstr ""
+msgstr "Opcional. La posición Z donde se genera el objeto."
 
 #. Description for command variant "mvz2:spawnblueprint tile"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "在指定的地格位置生成指定蓝图掉落物。默认位置为场地中心。"
 msgstr ""
+"Genera un objeto de plano en un espacio específico. La ubicación por defecto "
+"es el centro del campo de batalla."
 
 #. Description for parameter column of command "mvz2:spawnblueprint tile"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。掉落物所在列。0代表最左侧一列，向右递增。"
 msgstr ""
+"Opcional. La columna donde se genera el objeto. 0 representa la columna "
+"del extremo izquierdo, aumentando hacia la derecha."
 
 #. Description for parameter lane of command "mvz2:spawnblueprint tile"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "可选。掉落物所在行。0代表最上方一行，向下递增。"
 msgstr ""
+"Opcional. El carril donde se genera el objeto. 0 representa el carril "
+"superior, aumentando hacia abajo."
 
 #. Description for command "mvz2:artifact"
 #: Commands meta file
 msgctxt "command.description"
 msgid "调整制品。"
-msgstr ""
+msgstr "Ajusta los artefactos."
 
 #. Description for command variant "mvz2:artifact set"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "将某槽位的制品替换为指定ID的制品。"
-msgstr ""
+msgstr "Sustituye el artefacto de una ranura determinada por el artefacto con el ID especificado."
 
 #. Description for parameter slot of command "mvz2:artifact set"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "制品槽位，0代表第一个槽位，1代表第二个槽位，依此类推。"
-msgstr ""
+msgstr "Ranura del artefacto: 0 corresponde a la primera ranura, 1 a la segunda,y así sucesivamente."
 
 #. Description for parameter id of command "mvz2:artifact set"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "制品ID。"
-msgstr ""
+msgstr "El ID del artefacto."
 
 #. Description for command variant "mvz2:artifact remove"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "移除指定槽位的制品。"
-msgstr ""
+msgstr "Elimina el artefacto de una ranura determinada."
 
 #. Description for command "mvz2:unlock"
 #: Commands meta file
 msgctxt "command.description"
 msgid "解锁或重新锁定某些游戏状态。"
-msgstr ""
+msgstr "Desbloquea o vuelve a bloquear algún estado del juego."
 
 #. Description for command variant "mvz2:unlock add"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "解锁游戏状态。"
-msgstr ""
+msgstr "Desbloquea un estado del juego."
 
 #. Description for parameter id of command "mvz2:unlock add"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "状态ID。"
-msgstr ""
+msgstr "ID del estado."
 
 #. Description for command variant "mvz2:unlock remove"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "重新锁定游戏状态。"
-msgstr ""
+msgstr "Vuelve a bloquear el estado del juego."
 
 #. Description for command variant "mvz2:unlock list"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "打印当前存档所有目前解锁的游戏状态。"
-msgstr ""
+msgstr "Imprime todos los estados del juego que el usuario actual tiene desbloqueados."
 
 #. Description for command "mvz2:test"
 #: Commands meta file
 msgctxt "command.description"
 msgid "进行某些测试。"
-msgstr ""
+msgstr "Realiza ciertas pruebas."
 
 #. Description for command variant "mvz2:test armor"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "生成一排带有特定头盔的不同怪物。"
-msgstr ""
+msgstr "Genera una fila de monstruos diferentes que lleven una armadura específica."
 
 #. Description for parameter id of command "mvz2:test armor"
 #: Commands meta file
 msgctxt "command_parameter.description"
 msgid "盔甲ID。"
-msgstr ""
+msgstr "ID de armadura."
 
 #. Description for command variant "mvz2:test shield"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "生成一排带有特定盾牌的不同怪物。"
-msgstr ""
+msgstr "Genera un grupo de monstruos con escudos específicos."
 
 #. Description for command variant "mvz2:test paratroops"
 #: Commands meta file
 msgctxt "command_variant.description"
 msgid "生成一队伞兵僵尸。"
-msgstr ""
+msgstr "Genera un grupo de zombis paracaidistas."
 
 #. Name for difficulty 简单
 #: Difficulty meta file
@@ -5479,4 +5447,4 @@ msgstr "NORMAL"
 #: Difficulty meta file
 msgctxt "difficulty"
 msgid "困难"
-msgstr "DIFICIL"
+msgstr "DIFÍCIL"
