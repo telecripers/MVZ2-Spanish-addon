@@ -1,4 +1,4 @@
-Language: [Spanish](README.md) | [简体中文](README-ZH.md) | **Español**
+Language: [Spanish](README.md)  **Español**
 
 **Estado de traducción (8 de abril de 2026)**
 **almanac.po:**
