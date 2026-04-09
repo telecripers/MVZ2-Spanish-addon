@@ -15,7 +15,7 @@ Sin traducir (vacías): 0
 Total de entradas: 2130
 Traducidas: 2117
 Sin traducir (vacías): 13
-====================
+
 [Cosas por corregir](Cosas-por-corregir.md)
 
 
