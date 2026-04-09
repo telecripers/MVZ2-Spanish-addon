@@ -1,4 +1,5 @@
 Language: [Spanish](README.md) | [简体中文](README-ZH.md) | **Español**
+
 **Estado de traducción (8 de abril de 2026)**
 **almanac.po:**
 Total de entradas: 897
