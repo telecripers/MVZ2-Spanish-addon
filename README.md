@@ -1,22 +1,24 @@
 Language: [Spanish](README.md) | [简体中文](README-ZH.md) | **Español**
-
-**📊 Estado de traducción**
+**Estado de traducción (8 de abril de 2026)**
 **almanac.po:**
 Total de entradas: 897
-Traducidas: 673
-Sin traducir (vacías): 224
+Traducidas: 896
+Sin traducir (vacías): 1
 
 **general.po:**
 Total de entradas: 873
-Traducidas: 662
-Sin traducir (vacías): 211
+Traducidas: 873
+Sin traducir (vacías): 0
 
 **talk.po:**
 Total de entradas: 2130
-Traducidas: 1582
-Sin traducir (vacías): 548
+Traducidas: 2117
+Sin traducir (vacías): 13
+====================
+[Cosas por corregir](Cosas-por-corregir.md)
 
 
+**==Articulo de cómo crear un paquete de idioma para MVZ2==**
 Este artículo explica cómo crear un paquete de idioma para MVZ2.
 
 Dentro del cliente del juego MVZ2, puedes exportar paquetes de idioma integrados y estudiar sus estructuras de archivos.
@@ -162,3 +164,4 @@ El juego detecta automáticamente los nombres de idiomas estándar basados en lo
 Coloca las carpetas de los paquetes de idioma o los archivos `.zip` comprimidos aquí.
 
 También puedes gestionar los paquetes de idioma mediante las operaciones dentro del juego: Importar, Exportar y Eliminar.
+

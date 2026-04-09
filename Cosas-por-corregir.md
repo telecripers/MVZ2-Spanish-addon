@@ -7,7 +7,7 @@ msgid "是否重新播放？"
 ==============
 1.2-
     La recarga de los artilugios esta mal escrita "Muy lago" , la correccion seria "Muy largo"
-# 冷却时间
+#冷却时间
 #: Scripts\Vanilla\VanillaStrings.cs:82
 msgctxt "recharge_time"
 msgid "很长"
