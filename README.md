@@ -1,23 +1,5 @@
 Language: [Spanish](README.md)  **Español**
 
-**Estado de traducción (8 de abril de 2026)**
-**almanac.po:**
-Total de entradas: 897
-Traducidas: 896
-Sin traducir (vacías): 1
-
-**general.po:**
-Total de entradas: 873
-Traducidas: 873
-Sin traducir (vacías): 0
-
-**talk.po:**
-Total de entradas: 2130
-Traducidas: 2117
-Sin traducir (vacías): 13
-
-[Cosas por corregir](Cosas-por-corregir.md)
-
 
 **==Articulo de cómo crear un paquete de idioma para MVZ2==**
 Este artículo explica cómo crear un paquete de idioma para MVZ2.
