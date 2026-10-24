@@ -19,6 +19,12 @@
       "pivotY": 0.5
     },
     {
+      "name": "archive/mountain_note",
+      "texture": "archive/mountain_note.png",
+      "pivotX": 0.5,
+      "pivotY": 0.5
+    },
+    {
       "name": "archive/palace_note",
       "texture": "archive/palace_note.png",
       "pivotX": 0.5,
@@ -61,14 +67,20 @@
       "pivotY": 0.5
     },
     {
+      "name": "chapter_transition/title_ship",
+      "texture": "chapter_transition/title_ship.png",
+      "pivotX": 0.5,
+      "pivotY": 0.5
+    },
+    {
       "name": "chapter_transition/title_palace",
       "texture": "chapter_transition/title_palace.png",
       "pivotX": 0.5,
       "pivotY": 0.5
     },
     {
-      "name": "chapter_transition/title_ship",
-      "texture": "chapter_transition/title_ship.png",
+      "name": "chapter_transition/title_mountain",
+      "texture": "chapter_transition/title_mountain.png",
       "pivotX": 0.5,
       "pivotY": 0.5
     },
@@ -115,14 +127,20 @@
       "pivotY": 0.5
     },
     {
+      "name": "note/ship",
+      "texture": "note/ship.png",
+      "pivotX": 0.5,
+      "pivotY": 0.5
+    },
+    {
       "name": "note/palace",
       "texture": "note/palace.png",
       "pivotX": 0.5,
       "pivotY": 0.5
     },
     {
-      "name": "note/ship",
-      "texture": "note/ship.png",
+      "name": "note/mountain",
+      "texture": "note/mountain.png",
       "pivotX": 0.5,
       "pivotY": 0.5
     },
