@@ -1,6 +1,10 @@
 {
-    "name": "Traduccion al español (Version 0.6.4)",
+    "name": "Traduccion al español (Version 0.7.2)",
     "author": "Robosofto & Telecripers",
     "description": "by Robosofto & Telecripers",
-    "dataVersion": 0
+    "dataVersion": 1
+        "version": {
+        "major": 1,
+        "minor": 2
+    }
 }
